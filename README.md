@@ -1,22 +1,16 @@
-# pygments-css
+# highlight-css
 
+This repository hosts CSS files for Pygments-compatible styles.
 
-[Pygments](http://pygments.org), a Python-based code highlighting tool, comes with a set of builtin styles (not css files) for code highlighting. You have to generate a CSS file using the command line.
-
-You can generate these yourself, but this git repository has already generated them for you.
-
+Primarily these are the styles built into [Pygments](http://pygments.org), with a few more from [Rouge](https://github.com/rouge-ruby/rouge) (which is used by [Jekyll](https://github.com/jekyll/jekyll)).
 
 build
 -----
 
-These css files were generated using pygmentize on the command line like so::
+```
+pip install pygments
+gem install rouge
+make
+```
 
-    pygmentize -S default -f html -a .highlight > default.css
-
-You can remove or change the top-level class by removing or modifying `-a .highlight` in the [`makefile`](https://github.com/numist/pygments-css/blob/master/makefile).
-
-To regenerate them all with whichever ``pygments`` version you are using, run
-
-    git clone <this repo>
-    cd pygments-css
-    make cssfiles
+New styles in Pygments and/or Rouge will be automatically detected by the [makefile](https://github.com/numist/pygments-css/blob/master/makefile).
