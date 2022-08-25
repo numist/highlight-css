@@ -9,9 +9,9 @@ styles:
   - arduino
   - autumn
   - base16
-  - base16.dark
-  - base16.monokai
-  - base16.solarized
+  - base16-dark
+  - base16-monokai
+  - base16-solarized
   - borland
   - bw
   - colorful
@@ -26,7 +26,6 @@ styles:
   - gruvbox
   - gruvbox-dark
   - gruvbox-light
-  - gruvbox.light
   - igor
   - igorpro
   - inkpot
@@ -37,7 +36,7 @@ styles:
   - material
   - molokai
   - monokai
-  - monokai.sublime
+  - monokai-sublime
   - murphy
   - native
   - nord
@@ -53,9 +52,9 @@ styles:
   - solarized-dark
   - solarized-light
   - staroffice
-  - stata
   - stata-dark
   - stata-light
+  - stata
   - tango
   - thankful_eyes
   - trac
