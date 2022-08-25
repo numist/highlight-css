@@ -1,0 +1,84 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: #93a1a1; background-color: #eee8d5; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #93a1a1; background-color: #eee8d5; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-solarized-light .hll { background-color: #eee8d5 }
+.highlight-solarized-light { background: #fdf6e3; color: #657b83 }
+.highlight-solarized-light .c { color: #93a1a1; font-style: italic } /* Comment */
+.highlight-solarized-light .err { color: #657b83; background-color: #dc322f } /* Error */
+.highlight-solarized-light .esc { color: #657b83 } /* Escape */
+.highlight-solarized-light .g { color: #657b83 } /* Generic */
+.highlight-solarized-light .k { color: #859900 } /* Keyword */
+.highlight-solarized-light .l { color: #657b83 } /* Literal */
+.highlight-solarized-light .n { color: #657b83 } /* Name */
+.highlight-solarized-light .o { color: #93a1a1 } /* Operator */
+.highlight-solarized-light .x { color: #657b83 } /* Other */
+.highlight-solarized-light .p { color: #657b83 } /* Punctuation */
+.highlight-solarized-light .ch { color: #93a1a1; font-style: italic } /* Comment.Hashbang */
+.highlight-solarized-light .cm { color: #93a1a1; font-style: italic } /* Comment.Multiline */
+.highlight-solarized-light .cp { color: #d33682 } /* Comment.Preproc */
+.highlight-solarized-light .cpf { color: #93a1a1 } /* Comment.PreprocFile */
+.highlight-solarized-light .c1 { color: #93a1a1; font-style: italic } /* Comment.Single */
+.highlight-solarized-light .cs { color: #93a1a1; font-style: italic } /* Comment.Special */
+.highlight-solarized-light .gd { color: #dc322f } /* Generic.Deleted */
+.highlight-solarized-light .ge { color: #657b83; font-style: italic } /* Generic.Emph */
+.highlight-solarized-light .gr { color: #dc322f } /* Generic.Error */
+.highlight-solarized-light .gh { color: #657b83; font-weight: bold } /* Generic.Heading */
+.highlight-solarized-light .gi { color: #859900 } /* Generic.Inserted */
+.highlight-solarized-light .go { color: #657b83 } /* Generic.Output */
+.highlight-solarized-light .gp { color: #268bd2; font-weight: bold } /* Generic.Prompt */
+.highlight-solarized-light .gs { color: #657b83; font-weight: bold } /* Generic.Strong */
+.highlight-solarized-light .gu { color: #657b83; text-decoration: underline } /* Generic.Subheading */
+.highlight-solarized-light .gt { color: #268bd2 } /* Generic.Traceback */
+.highlight-solarized-light .kc { color: #2aa198 } /* Keyword.Constant */
+.highlight-solarized-light .kd { color: #2aa198 } /* Keyword.Declaration */
+.highlight-solarized-light .kn { color: #cb4b16 } /* Keyword.Namespace */
+.highlight-solarized-light .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight-solarized-light .kr { color: #859900 } /* Keyword.Reserved */
+.highlight-solarized-light .kt { color: #b58900 } /* Keyword.Type */
+.highlight-solarized-light .ld { color: #657b83 } /* Literal.Date */
+.highlight-solarized-light .m { color: #2aa198 } /* Literal.Number */
+.highlight-solarized-light .s { color: #2aa198 } /* Literal.String */
+.highlight-solarized-light .na { color: #657b83 } /* Name.Attribute */
+.highlight-solarized-light .nb { color: #268bd2 } /* Name.Builtin */
+.highlight-solarized-light .nc { color: #268bd2 } /* Name.Class */
+.highlight-solarized-light .no { color: #268bd2 } /* Name.Constant */
+.highlight-solarized-light .nd { color: #268bd2 } /* Name.Decorator */
+.highlight-solarized-light .ni { color: #268bd2 } /* Name.Entity */
+.highlight-solarized-light .ne { color: #268bd2 } /* Name.Exception */
+.highlight-solarized-light .nf { color: #268bd2 } /* Name.Function */
+.highlight-solarized-light .nl { color: #268bd2 } /* Name.Label */
+.highlight-solarized-light .nn { color: #268bd2 } /* Name.Namespace */
+.highlight-solarized-light .nx { color: #657b83 } /* Name.Other */
+.highlight-solarized-light .py { color: #657b83 } /* Name.Property */
+.highlight-solarized-light .nt { color: #268bd2 } /* Name.Tag */
+.highlight-solarized-light .nv { color: #268bd2 } /* Name.Variable */
+.highlight-solarized-light .ow { color: #859900 } /* Operator.Word */
+.highlight-solarized-light .pm { color: #657b83 } /* Punctuation.Marker */
+.highlight-solarized-light .w { color: #657b83 } /* Text.Whitespace */
+.highlight-solarized-light .mb { color: #2aa198 } /* Literal.Number.Bin */
+.highlight-solarized-light .mf { color: #2aa198 } /* Literal.Number.Float */
+.highlight-solarized-light .mh { color: #2aa198 } /* Literal.Number.Hex */
+.highlight-solarized-light .mi { color: #2aa198 } /* Literal.Number.Integer */
+.highlight-solarized-light .mo { color: #2aa198 } /* Literal.Number.Oct */
+.highlight-solarized-light .sa { color: #2aa198 } /* Literal.String.Affix */
+.highlight-solarized-light .sb { color: #2aa198 } /* Literal.String.Backtick */
+.highlight-solarized-light .sc { color: #2aa198 } /* Literal.String.Char */
+.highlight-solarized-light .dl { color: #2aa198 } /* Literal.String.Delimiter */
+.highlight-solarized-light .sd { color: #93a1a1 } /* Literal.String.Doc */
+.highlight-solarized-light .s2 { color: #2aa198 } /* Literal.String.Double */
+.highlight-solarized-light .se { color: #2aa198 } /* Literal.String.Escape */
+.highlight-solarized-light .sh { color: #2aa198 } /* Literal.String.Heredoc */
+.highlight-solarized-light .si { color: #2aa198 } /* Literal.String.Interpol */
+.highlight-solarized-light .sx { color: #2aa198 } /* Literal.String.Other */
+.highlight-solarized-light .sr { color: #cb4b16 } /* Literal.String.Regex */
+.highlight-solarized-light .s1 { color: #2aa198 } /* Literal.String.Single */
+.highlight-solarized-light .ss { color: #2aa198 } /* Literal.String.Symbol */
+.highlight-solarized-light .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
+.highlight-solarized-light .fm { color: #268bd2 } /* Name.Function.Magic */
+.highlight-solarized-light .vc { color: #268bd2 } /* Name.Variable.Class */
+.highlight-solarized-light .vg { color: #268bd2 } /* Name.Variable.Global */
+.highlight-solarized-light .vi { color: #268bd2 } /* Name.Variable.Instance */
+.highlight-solarized-light .vm { color: #268bd2 } /* Name.Variable.Magic */
+.highlight-solarized-light .il { color: #2aa198 } /* Literal.Number.Integer.Long */

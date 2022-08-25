@@ -1,0 +1,68 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-xcode .hll { background-color: #ffffcc }
+.highlight-xcode { background: #ffffff; }
+.highlight-xcode .c { color: #177500 } /* Comment */
+.highlight-xcode .err { color: #000000 } /* Error */
+.highlight-xcode .k { color: #A90D91 } /* Keyword */
+.highlight-xcode .l { color: #1C01CE } /* Literal */
+.highlight-xcode .n { color: #000000 } /* Name */
+.highlight-xcode .o { color: #000000 } /* Operator */
+.highlight-xcode .ch { color: #177500 } /* Comment.Hashbang */
+.highlight-xcode .cm { color: #177500 } /* Comment.Multiline */
+.highlight-xcode .cp { color: #633820 } /* Comment.Preproc */
+.highlight-xcode .cpf { color: #177500 } /* Comment.PreprocFile */
+.highlight-xcode .c1 { color: #177500 } /* Comment.Single */
+.highlight-xcode .cs { color: #177500 } /* Comment.Special */
+.highlight-xcode .kc { color: #A90D91 } /* Keyword.Constant */
+.highlight-xcode .kd { color: #A90D91 } /* Keyword.Declaration */
+.highlight-xcode .kn { color: #A90D91 } /* Keyword.Namespace */
+.highlight-xcode .kp { color: #A90D91 } /* Keyword.Pseudo */
+.highlight-xcode .kr { color: #A90D91 } /* Keyword.Reserved */
+.highlight-xcode .kt { color: #A90D91 } /* Keyword.Type */
+.highlight-xcode .ld { color: #1C01CE } /* Literal.Date */
+.highlight-xcode .m { color: #1C01CE } /* Literal.Number */
+.highlight-xcode .s { color: #C41A16 } /* Literal.String */
+.highlight-xcode .na { color: #836C28 } /* Name.Attribute */
+.highlight-xcode .nb { color: #A90D91 } /* Name.Builtin */
+.highlight-xcode .nc { color: #3F6E75 } /* Name.Class */
+.highlight-xcode .no { color: #000000 } /* Name.Constant */
+.highlight-xcode .nd { color: #000000 } /* Name.Decorator */
+.highlight-xcode .ni { color: #000000 } /* Name.Entity */
+.highlight-xcode .ne { color: #000000 } /* Name.Exception */
+.highlight-xcode .nf { color: #000000 } /* Name.Function */
+.highlight-xcode .nl { color: #000000 } /* Name.Label */
+.highlight-xcode .nn { color: #000000 } /* Name.Namespace */
+.highlight-xcode .nx { color: #000000 } /* Name.Other */
+.highlight-xcode .py { color: #000000 } /* Name.Property */
+.highlight-xcode .nt { color: #000000 } /* Name.Tag */
+.highlight-xcode .nv { color: #000000 } /* Name.Variable */
+.highlight-xcode .ow { color: #000000 } /* Operator.Word */
+.highlight-xcode .mb { color: #1C01CE } /* Literal.Number.Bin */
+.highlight-xcode .mf { color: #1C01CE } /* Literal.Number.Float */
+.highlight-xcode .mh { color: #1C01CE } /* Literal.Number.Hex */
+.highlight-xcode .mi { color: #1C01CE } /* Literal.Number.Integer */
+.highlight-xcode .mo { color: #1C01CE } /* Literal.Number.Oct */
+.highlight-xcode .sa { color: #C41A16 } /* Literal.String.Affix */
+.highlight-xcode .sb { color: #C41A16 } /* Literal.String.Backtick */
+.highlight-xcode .sc { color: #2300CE } /* Literal.String.Char */
+.highlight-xcode .dl { color: #C41A16 } /* Literal.String.Delimiter */
+.highlight-xcode .sd { color: #C41A16 } /* Literal.String.Doc */
+.highlight-xcode .s2 { color: #C41A16 } /* Literal.String.Double */
+.highlight-xcode .se { color: #C41A16 } /* Literal.String.Escape */
+.highlight-xcode .sh { color: #C41A16 } /* Literal.String.Heredoc */
+.highlight-xcode .si { color: #C41A16 } /* Literal.String.Interpol */
+.highlight-xcode .sx { color: #C41A16 } /* Literal.String.Other */
+.highlight-xcode .sr { color: #C41A16 } /* Literal.String.Regex */
+.highlight-xcode .s1 { color: #C41A16 } /* Literal.String.Single */
+.highlight-xcode .ss { color: #C41A16 } /* Literal.String.Symbol */
+.highlight-xcode .bp { color: #5B269A } /* Name.Builtin.Pseudo */
+.highlight-xcode .fm { color: #000000 } /* Name.Function.Magic */
+.highlight-xcode .vc { color: #000000 } /* Name.Variable.Class */
+.highlight-xcode .vg { color: #000000 } /* Name.Variable.Global */
+.highlight-xcode .vi { color: #000000 } /* Name.Variable.Instance */
+.highlight-xcode .vm { color: #000000 } /* Name.Variable.Magic */
+.highlight-xcode .il { color: #1C01CE } /* Literal.Number.Integer.Long */
