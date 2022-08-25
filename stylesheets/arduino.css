@@ -1,0 +1,66 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-arduino .hll { background-color: #ffffcc }
+.highlight-arduino { background: #ffffff; }
+.highlight-arduino .c { color: #95a5a6 } /* Comment */
+.highlight-arduino .err { color: #a61717 } /* Error */
+.highlight-arduino .k { color: #728E00 } /* Keyword */
+.highlight-arduino .n { color: #434f54 } /* Name */
+.highlight-arduino .o { color: #728E00 } /* Operator */
+.highlight-arduino .ch { color: #95a5a6 } /* Comment.Hashbang */
+.highlight-arduino .cm { color: #95a5a6 } /* Comment.Multiline */
+.highlight-arduino .cp { color: #728E00 } /* Comment.Preproc */
+.highlight-arduino .cpf { color: #95a5a6 } /* Comment.PreprocFile */
+.highlight-arduino .c1 { color: #95a5a6 } /* Comment.Single */
+.highlight-arduino .cs { color: #95a5a6 } /* Comment.Special */
+.highlight-arduino .kc { color: #00979D } /* Keyword.Constant */
+.highlight-arduino .kd { color: #728E00 } /* Keyword.Declaration */
+.highlight-arduino .kn { color: #728E00 } /* Keyword.Namespace */
+.highlight-arduino .kp { color: #00979D } /* Keyword.Pseudo */
+.highlight-arduino .kr { color: #00979D } /* Keyword.Reserved */
+.highlight-arduino .kt { color: #00979D } /* Keyword.Type */
+.highlight-arduino .m { color: #8A7B52 } /* Literal.Number */
+.highlight-arduino .s { color: #7F8C8D } /* Literal.String */
+.highlight-arduino .na { color: #434f54 } /* Name.Attribute */
+.highlight-arduino .nb { color: #728E00 } /* Name.Builtin */
+.highlight-arduino .nc { color: #434f54 } /* Name.Class */
+.highlight-arduino .no { color: #434f54 } /* Name.Constant */
+.highlight-arduino .nd { color: #434f54 } /* Name.Decorator */
+.highlight-arduino .ni { color: #434f54 } /* Name.Entity */
+.highlight-arduino .ne { color: #434f54 } /* Name.Exception */
+.highlight-arduino .nf { color: #D35400 } /* Name.Function */
+.highlight-arduino .nl { color: #434f54 } /* Name.Label */
+.highlight-arduino .nn { color: #434f54 } /* Name.Namespace */
+.highlight-arduino .nx { color: #728E00 } /* Name.Other */
+.highlight-arduino .py { color: #434f54 } /* Name.Property */
+.highlight-arduino .nt { color: #434f54 } /* Name.Tag */
+.highlight-arduino .nv { color: #434f54 } /* Name.Variable */
+.highlight-arduino .ow { color: #728E00 } /* Operator.Word */
+.highlight-arduino .mb { color: #8A7B52 } /* Literal.Number.Bin */
+.highlight-arduino .mf { color: #8A7B52 } /* Literal.Number.Float */
+.highlight-arduino .mh { color: #8A7B52 } /* Literal.Number.Hex */
+.highlight-arduino .mi { color: #8A7B52 } /* Literal.Number.Integer */
+.highlight-arduino .mo { color: #8A7B52 } /* Literal.Number.Oct */
+.highlight-arduino .sa { color: #7F8C8D } /* Literal.String.Affix */
+.highlight-arduino .sb { color: #7F8C8D } /* Literal.String.Backtick */
+.highlight-arduino .sc { color: #7F8C8D } /* Literal.String.Char */
+.highlight-arduino .dl { color: #7F8C8D } /* Literal.String.Delimiter */
+.highlight-arduino .sd { color: #7F8C8D } /* Literal.String.Doc */
+.highlight-arduino .s2 { color: #7F8C8D } /* Literal.String.Double */
+.highlight-arduino .se { color: #7F8C8D } /* Literal.String.Escape */
+.highlight-arduino .sh { color: #7F8C8D } /* Literal.String.Heredoc */
+.highlight-arduino .si { color: #7F8C8D } /* Literal.String.Interpol */
+.highlight-arduino .sx { color: #7F8C8D } /* Literal.String.Other */
+.highlight-arduino .sr { color: #7F8C8D } /* Literal.String.Regex */
+.highlight-arduino .s1 { color: #7F8C8D } /* Literal.String.Single */
+.highlight-arduino .ss { color: #7F8C8D } /* Literal.String.Symbol */
+.highlight-arduino .bp { color: #728E00 } /* Name.Builtin.Pseudo */
+.highlight-arduino .fm { color: #D35400 } /* Name.Function.Magic */
+.highlight-arduino .vc { color: #434f54 } /* Name.Variable.Class */
+.highlight-arduino .vg { color: #434f54 } /* Name.Variable.Global */
+.highlight-arduino .vi { color: #434f54 } /* Name.Variable.Instance */
+.highlight-arduino .vm { color: #434f54 } /* Name.Variable.Magic */
+.highlight-arduino .il { color: #8A7B52 } /* Literal.Number.Integer.Long */

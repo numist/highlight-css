@@ -11,11 +11,9 @@ STYLES := $(shell python3 -c "from pygments.styles import get_all_styles; print(
 
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
-gen_html = pygmentize -S $(style) -f html -a .$(style) >> stylesheets/themes.css;
+gen_html = pygmentize -S $(style) -f html -a .highlight-$(style) >> stylesheets/$(style).css;
 
 all:
-	rm stylesheets/themes.css
-	touch stylesheets/themes.css
 	$(foreach style, $(STYLES), $(gen_html))
 
 styles:
