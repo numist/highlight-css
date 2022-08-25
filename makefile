@@ -1,3 +1,5 @@
+$(VERBOSE).SILENT:
+
 # make sure you already ran pip install -r requirements.txt
 #
 # syntax
@@ -12,4 +14,4 @@ STYLES := $(shell python3 -c "from pygments.styles import get_all_styles; print(
 gen_html = pygmentize -S $(style) -f html -a .highlight > $(style).css;
 
 cssfiles:
-	@$(foreach style, $(STYLES), $(gen_html))
+	$(foreach style, $(STYLES), $(gen_html))
