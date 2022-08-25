@@ -44,62 +44,65 @@
 cd pygments-css
 make cssfiles</pre></code>
 
-<!--
-      <h2>Themes</h2>
-      <h3>autumn.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/Ea46N/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<!-- TODO: lots -->
 
-      <h3>borland.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/GZ5cn/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<!-- Front matter variable with list of styles? -->
 
-      <h3>bw.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/yYJ7z/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<!-- <div class="body" role="main"> -->
+            
+<style>
+.style-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h2 {
+    margin-top: 2em;
+}
+.style-gallery h3 {
+    margin-bottom: 0.1em;
+}
+.style-gallery pre {
+    background-color: inherit;
+}
+</style>
 
-      <h3>colorful.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/9nUft/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-      <h3>default.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/LjLx2/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<h1>Styles</h1>
 
-      <h3>emacs.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/uW9HL/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div class="style-gallery">
 
-      <h3>friendly.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/UPy3h/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<% jekyll-foreach style in styles %>
 
-      <h3>fruity.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/6SWUA/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+    <div>
+    <h3 id="<% style %>"><% style %></h3>
+    <div class="<% style %>" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">typing</span> <span style="color: #008000; font-weight: bold">import</span> Iterator
 
-      <h3>manni.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/D3npA/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<span style="color: #3D7B7B; font-style: italic"># This is an example</span>
+<span style="color: #008000; font-weight: bold">class</span> <span style="color: #0000FF; font-weight: bold">Math</span>:
+    <span style="color: #AA22FF">@staticmethod</span>
+    <span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">fib</span>(n: <span style="color: #008000">int</span>) <span style="color: #666666">-&gt;</span> Iterator[<span style="color: #008000">int</span>]:
+        <span style="color: #BA2121; font-style: italic">""" Fibonacci series up to n """</span>
+        a, b <span style="color: #666666">=</span> <span style="color: #666666">0</span>, <span style="color: #666666">1</span>
+        <span style="color: #008000; font-weight: bold">while</span> a <span style="color: #666666">&lt;</span> n:
+            <span style="color: #008000; font-weight: bold">yield</span> a
+            a, b <span style="color: #666666">=</span> b, a <span style="color: #666666">+</span> b
 
-      <h3>monokai.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/8yLP6/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+result <span style="color: #666666">=</span> <span style="color: #008000">sum</span>(Math<span style="color: #666666">.</span>fib(<span style="color: #666666">42</span>))
+<span style="color: #008000">print</span>(<span style="color: #BA2121">"The answer is </span><span style="color: #A45A77; font-weight: bold">{}</span><span style="color: #BA2121">"</span><span style="color: #666666">.</span>format(result))
+</pre></div>
 
-      <h3>murphy.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/h562V/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+    </div>
 
-      <h3>native.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/8uMVB/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<% end %>
+    
+</div>
 
-      <h3>pastie.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/wy5Ha/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-      <h3>perldoc.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/Ptu4t/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            <!-- <div class="clearer"></div> -->
+          <!-- </div> -->
 
-      <h3>tango.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/rPKAL/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-      <h3>trac.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/uaR6P/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-      <h3>vim.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/7d6j5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-      <h3>vs.css</h3>
-      <iframe width="100%" height="300" src="//jsfiddle.net/richleland/eLzdu/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
--->
+<!-- /TODO -->
 
     </section>
     <footer>
