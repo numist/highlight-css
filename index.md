@@ -9,6 +9,9 @@ styles:
   - arduino
   - autumn
   - base16
+  - base16.dark
+  - base16.monokai
+  - base16.solarized
   - borland
   - bw
   - colorful
@@ -23,8 +26,8 @@ styles:
   - gruvbox
   - gruvbox-dark
   - gruvbox-light
+  - gruvbox.light
   - igor
-  - igor_pro
   - igorpro
   - inkpot
   - lilypond
