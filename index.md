@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "pygments-css by numist"
+description: "CSS files derived from Pygments' built-in styles."
 styles:
   - default
   - emacs
@@ -52,8 +53,6 @@ styles:
   - github-dark
 ---
 
-# [pygments-css](https://github.com/numist/pygments-css)
-
 CSS files derived from Pygments' built-in styles.
 
 [Pygments](http://pygments.org) is a Python-based code highlighting tool that comes with a set of builtin [styles](http://dev.pocoo.org/projects/pygments/browser/pygments/styles) (not css files) for code highlighting. You could [generate CSS files for these themes at the command line](https://github.com/numist/pygments-css/blob/master/makefile), or just click your favourite from the gallery below:
@@ -79,7 +78,9 @@ CSS files derived from Pygments' built-in styles.
 
 {% for style in page.styles %}
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/numist/pygments-css/gh-pages/stylesheets/{{ style }}.css">
+<style>
+  {% include_relative stylesheets/{{ style }}.css %}
+</style>
 
 <div>
 <h3 id="{{ style }}"><a href="https://github.com/numist/pygments-css/blob/master/{{ style }}.css">{{ style }}</a></h3>
