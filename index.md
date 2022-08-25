@@ -3,54 +3,54 @@ layout: page
 title: "pygments-css by numist"
 description: "CSS files derived from Pygments' built-in styles."
 styles:
-  - default
-  - emacs
-  - friendly
-  - friendly_grayscale
-  - colorful
-  - autumn
-  - murphy
-  - manni
-  - material
-  - monokai
-  - perldoc
-  - pastie
-  - borland
-  - trac
-  - native
-  - fruity
-  - bw
-  - vim
-  - vs
-  - tango
-  - rrt
-  - xcode
-  - igor
-  - paraiso-light
-  - paraiso-dark
-  - lovelace
+  - abap
   - algol
   - algol_nu
   - arduino
-  - rainbow_dash
-  - abap
-  - solarized-dark
-  - solarized-light
-  - sas
-  - staroffice
-  - stata
-  - stata-light
-  - stata-dark
-  - inkpot
-  - zenburn
+  - autumn
+  - borland
+  - bw
+  - colorful
+  - default
+  - dracula
+  - emacs
+  - friendly
+  - friendly_grayscale
+  - fruity
+  - github-dark
   - gruvbox-dark
   - gruvbox-light
-  - dracula
-  - one-dark
+  - igor
+  - inkpot
   - lilypond
+  - lovelace
+  - manni
+  - material
+  - monokai
+  - murphy
+  - native
   - nord
   - nord-darker
-  - github-dark
+  - one-dark
+  - paraiso-dark
+  - paraiso-light
+  - pastie
+  - perldoc
+  - rainbow_dash
+  - rrt
+  - sas
+  - solarized-dark
+  - solarized-light
+  - staroffice
+  - stata
+  - stata-dark
+  - stata-light
+  - tango
+  - trac
+  - vim
+  - vs
+  - xcode
+  - zenburn
 ---
 
 CSS files derived from Pygments' built-in styles.
