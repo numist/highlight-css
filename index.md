@@ -8,6 +8,7 @@ styles:
   - algol_nu
   - arduino
   - autumn
+  - base16
   - borland
   - bw
   - colorful
@@ -17,16 +18,23 @@ styles:
   - friendly
   - friendly_grayscale
   - fruity
+  - github
   - github-dark
+  - gruvbox
   - gruvbox-dark
   - gruvbox-light
   - igor
+  - igor_pro
+  - igorpro
   - inkpot
   - lilypond
   - lovelace
+  - magritte
   - manni
   - material
+  - molokai
   - monokai
+  - monokai.sublime
   - murphy
   - native
   - nord
@@ -46,7 +54,9 @@ styles:
   - stata-dark
   - stata-light
   - tango
+  - thankful_eyes
   - trac
+  - tulip
   - vim
   - vs
   - xcode

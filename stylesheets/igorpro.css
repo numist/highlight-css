@@ -1,0 +1,35 @@
+.highlight-igorpro table td { padding: 5px; }
+.highlight-igorpro table pre { margin: 0; }
+.highlight-igorpro, .highlight .w {
+  color: #444444;
+}
+.highlight-igorpro .cp {
+  color: #CC00A3;
+}
+.highlight-igorpro .cs {
+  color: #CC00A3;
+}
+.highlight-igorpro .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1 {
+  color: #FF0000;
+}
+.highlight-igorpro .kc {
+  color: #C34E00;
+}
+.highlight-igorpro .kd {
+  color: #0000FF;
+}
+.highlight-igorpro .kr {
+  color: #007575;
+}
+.highlight-igorpro .k, .highlight .kn, .highlight .kp, .highlight .kt, .highlight .kv {
+  color: #0000FF;
+}
+.highlight-igorpro .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  color: #009C00;
+}
+.highlight-igorpro .sa {
+  color: #0000FF;
+}
+.highlight-igorpro .nb, .highlight .bp {
+  color: #C34E00;
+}
