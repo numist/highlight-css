@@ -105,6 +105,3 @@ CSS files derived from Pygments' built-in styles.
 {% endfor %}
     
 </div>
-
-</body>
-</html>
