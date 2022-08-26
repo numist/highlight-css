@@ -51,6 +51,7 @@ styles:
   - sas
   - solarized-dark
   - solarized-light
+  - son-of-obsidian
   - staroffice
   - stata-dark
   - stata-light
