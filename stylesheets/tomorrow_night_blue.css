@@ -1,0 +1,93 @@
+/*
+ * LICENSE
+ * 
+ * Tomorrow Theme is released under the MIT License:
+ * 
+ * Copyright (C) 2011 [Chris Kempson](https://github.com/chriskempson)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.highlight-tomorrow_night_blue .hll { background-color: #003f8e }
+.highlight-tomorrow_night_blue  { background: #002451; color: #ffffff }
+.highlight-tomorrow_night_blue .c { color: #7285b7 } /* Comment */
+.highlight-tomorrow_night_blue .err { color: #ff9da4 } /* Error */
+.highlight-tomorrow_night_blue .k { color: #ebbbff } /* Keyword */
+.highlight-tomorrow_night_blue .l { color: #ffc58f } /* Literal */
+.highlight-tomorrow_night_blue .n { color: #ffffff } /* Name */
+.highlight-tomorrow_night_blue .o { color: #99ffff } /* Operator */
+.highlight-tomorrow_night_blue .p { color: #ffffff } /* Punctuation */
+.highlight-tomorrow_night_blue .cm { color: #7285b7 } /* Comment.Multiline */
+.highlight-tomorrow_night_blue .cp { color: #7285b7 } /* Comment.Preproc */
+.highlight-tomorrow_night_blue .c1 { color: #7285b7 } /* Comment.Single */
+.highlight-tomorrow_night_blue .cs { color: #7285b7 } /* Comment.Special */
+.highlight-tomorrow_night_blue .gd { color: #ff9da4 } /* Generic.Deleted */
+.highlight-tomorrow_night_blue .ge { font-style: italic } /* Generic.Emph */
+.highlight-tomorrow_night_blue .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
+.highlight-tomorrow_night_blue .gi { color: #d1f1a9 } /* Generic.Inserted */
+.highlight-tomorrow_night_blue .gp { color: #7285b7; font-weight: bold } /* Generic.Prompt */
+.highlight-tomorrow_night_blue .gs { font-weight: bold } /* Generic.Strong */
+.highlight-tomorrow_night_blue .gu { color: #99ffff; font-weight: bold } /* Generic.Subheading */
+.highlight-tomorrow_night_blue .kc { color: #ebbbff } /* Keyword.Constant */
+.highlight-tomorrow_night_blue .kd { color: #ebbbff } /* Keyword.Declaration */
+.highlight-tomorrow_night_blue .kn { color: #99ffff } /* Keyword.Namespace */
+.highlight-tomorrow_night_blue .kp { color: #ebbbff } /* Keyword.Pseudo */
+.highlight-tomorrow_night_blue .kr { color: #ebbbff } /* Keyword.Reserved */
+.highlight-tomorrow_night_blue .kt { color: #ffeead } /* Keyword.Type */
+.highlight-tomorrow_night_blue .ld { color: #d1f1a9 } /* Literal.Date */
+.highlight-tomorrow_night_blue .m { color: #ffc58f } /* Literal.Number */
+.highlight-tomorrow_night_blue .s { color: #d1f1a9 } /* Literal.String */
+.highlight-tomorrow_night_blue .na { color: #bbdaff } /* Name.Attribute */
+.highlight-tomorrow_night_blue .nb { color: #ffffff } /* Name.Builtin */
+.highlight-tomorrow_night_blue .nc { color: #ffeead } /* Name.Class */
+.highlight-tomorrow_night_blue .no { color: #ff9da4 } /* Name.Constant */
+.highlight-tomorrow_night_blue .nd { color: #99ffff } /* Name.Decorator */
+.highlight-tomorrow_night_blue .ni { color: #ffffff } /* Name.Entity */
+.highlight-tomorrow_night_blue .ne { color: #ff9da4 } /* Name.Exception */
+.highlight-tomorrow_night_blue .nf { color: #bbdaff } /* Name.Function */
+.highlight-tomorrow_night_blue .nl { color: #ffffff } /* Name.Label */
+.highlight-tomorrow_night_blue .nn { color: #ffeead } /* Name.Namespace */
+.highlight-tomorrow_night_blue .nx { color: #bbdaff } /* Name.Other */
+.highlight-tomorrow_night_blue .py { color: #ffffff } /* Name.Property */
+.highlight-tomorrow_night_blue .nt { color: #99ffff } /* Name.Tag */
+.highlight-tomorrow_night_blue .nv { color: #ff9da4 } /* Name.Variable */
+.highlight-tomorrow_night_blue .ow { color: #99ffff } /* Operator.Word */
+.highlight-tomorrow_night_blue .w { color: #ffffff } /* Text.Whitespace */
+.highlight-tomorrow_night_blue .mf { color: #ffc58f } /* Literal.Number.Float */
+.highlight-tomorrow_night_blue .mh { color: #ffc58f } /* Literal.Number.Hex */
+.highlight-tomorrow_night_blue .mi { color: #ffc58f } /* Literal.Number.Integer */
+.highlight-tomorrow_night_blue .mo { color: #ffc58f } /* Literal.Number.Oct */
+.highlight-tomorrow_night_blue .sb { color: #d1f1a9 } /* Literal.String.Backtick */
+.highlight-tomorrow_night_blue .sc { color: #ffffff } /* Literal.String.Char */
+.highlight-tomorrow_night_blue .sd { color: #7285b7 } /* Literal.String.Doc */
+.highlight-tomorrow_night_blue .s2 { color: #d1f1a9 } /* Literal.String.Double */
+.highlight-tomorrow_night_blue .se { color: #ffc58f } /* Literal.String.Escape */
+.highlight-tomorrow_night_blue .sh { color: #d1f1a9 } /* Literal.String.Heredoc */
+.highlight-tomorrow_night_blue .si { color: #ffc58f } /* Literal.String.Interpol */
+.highlight-tomorrow_night_blue .sx { color: #d1f1a9 } /* Literal.String.Other */
+.highlight-tomorrow_night_blue .sr { color: #d1f1a9 } /* Literal.String.Regex */
+.highlight-tomorrow_night_blue .s1 { color: #d1f1a9 } /* Literal.String.Single */
+.highlight-tomorrow_night_blue .ss { color: #d1f1a9 } /* Literal.String.Symbol */
+.highlight-tomorrow_night_blue .bp { color: #ffffff } /* Name.Builtin.Pseudo */
+.highlight-tomorrow_night_blue .vc { color: #ff9da4 } /* Name.Variable.Class */
+.highlight-tomorrow_night_blue .vg { color: #ff9da4 } /* Name.Variable.Global */
+.highlight-tomorrow_night_blue .vi { color: #ff9da4 } /* Name.Variable.Instance */
+.highlight-tomorrow_night_blue .il { color: #ffc58f } /* Literal.Number.Integer.Long */
+

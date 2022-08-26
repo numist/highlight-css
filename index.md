@@ -57,6 +57,11 @@ styles:
   - stata
   - tango
   - thankful_eyes
+  - tomorrow
+  - tomorrow_night
+  - tomorrow_night_blue
+  - tomorrow_night_bright
+  - tomorrow_night_eighties
   - trac
   - tulip
   - vim

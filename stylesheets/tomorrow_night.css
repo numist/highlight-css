@@ -1,0 +1,93 @@
+/*
+ * LICENSE
+ * 
+ * Tomorrow Theme is released under the MIT License:
+ * 
+ * Copyright (C) 2011 [Chris Kempson](https://github.com/chriskempson)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.highlight-tomorrow_night .hll { background-color: #373b41 }
+.highlight-tomorrow_night  { background: #1d1f21; color: #c5c8c6 }
+.highlight-tomorrow_night .c { color: #969896 } /* Comment */
+.highlight-tomorrow_night .err { color: #cc6666 } /* Error */
+.highlight-tomorrow_night .k { color: #b294bb } /* Keyword */
+.highlight-tomorrow_night .l { color: #de935f } /* Literal */
+.highlight-tomorrow_night .n { color: #c5c8c6 } /* Name */
+.highlight-tomorrow_night .o { color: #8abeb7 } /* Operator */
+.highlight-tomorrow_night .p { color: #c5c8c6 } /* Punctuation */
+.highlight-tomorrow_night .cm { color: #969896 } /* Comment.Multiline */
+.highlight-tomorrow_night .cp { color: #969896 } /* Comment.Preproc */
+.highlight-tomorrow_night .c1 { color: #969896 } /* Comment.Single */
+.highlight-tomorrow_night .cs { color: #969896 } /* Comment.Special */
+.highlight-tomorrow_night .gd { color: #cc6666 } /* Generic.Deleted */
+.highlight-tomorrow_night .ge { font-style: italic } /* Generic.Emph */
+.highlight-tomorrow_night .gh { color: #c5c8c6; font-weight: bold } /* Generic.Heading */
+.highlight-tomorrow_night .gi { color: #b5bd68 } /* Generic.Inserted */
+.highlight-tomorrow_night .gp { color: #969896; font-weight: bold } /* Generic.Prompt */
+.highlight-tomorrow_night .gs { font-weight: bold } /* Generic.Strong */
+.highlight-tomorrow_night .gu { color: #8abeb7; font-weight: bold } /* Generic.Subheading */
+.highlight-tomorrow_night .kc { color: #b294bb } /* Keyword.Constant */
+.highlight-tomorrow_night .kd { color: #b294bb } /* Keyword.Declaration */
+.highlight-tomorrow_night .kn { color: #8abeb7 } /* Keyword.Namespace */
+.highlight-tomorrow_night .kp { color: #b294bb } /* Keyword.Pseudo */
+.highlight-tomorrow_night .kr { color: #b294bb } /* Keyword.Reserved */
+.highlight-tomorrow_night .kt { color: #f0c674 } /* Keyword.Type */
+.highlight-tomorrow_night .ld { color: #b5bd68 } /* Literal.Date */
+.highlight-tomorrow_night .m { color: #de935f } /* Literal.Number */
+.highlight-tomorrow_night .s { color: #b5bd68 } /* Literal.String */
+.highlight-tomorrow_night .na { color: #81a2be } /* Name.Attribute */
+.highlight-tomorrow_night .nb { color: #c5c8c6 } /* Name.Builtin */
+.highlight-tomorrow_night .nc { color: #f0c674 } /* Name.Class */
+.highlight-tomorrow_night .no { color: #cc6666 } /* Name.Constant */
+.highlight-tomorrow_night .nd { color: #8abeb7 } /* Name.Decorator */
+.highlight-tomorrow_night .ni { color: #c5c8c6 } /* Name.Entity */
+.highlight-tomorrow_night .ne { color: #cc6666 } /* Name.Exception */
+.highlight-tomorrow_night .nf { color: #81a2be } /* Name.Function */
+.highlight-tomorrow_night .nl { color: #c5c8c6 } /* Name.Label */
+.highlight-tomorrow_night .nn { color: #f0c674 } /* Name.Namespace */
+.highlight-tomorrow_night .nx { color: #81a2be } /* Name.Other */
+.highlight-tomorrow_night .py { color: #c5c8c6 } /* Name.Property */
+.highlight-tomorrow_night .nt { color: #8abeb7 } /* Name.Tag */
+.highlight-tomorrow_night .nv { color: #cc6666 } /* Name.Variable */
+.highlight-tomorrow_night .ow { color: #8abeb7 } /* Operator.Word */
+.highlight-tomorrow_night .w { color: #c5c8c6 } /* Text.Whitespace */
+.highlight-tomorrow_night .mf { color: #de935f } /* Literal.Number.Float */
+.highlight-tomorrow_night .mh { color: #de935f } /* Literal.Number.Hex */
+.highlight-tomorrow_night .mi { color: #de935f } /* Literal.Number.Integer */
+.highlight-tomorrow_night .mo { color: #de935f } /* Literal.Number.Oct */
+.highlight-tomorrow_night .sb { color: #b5bd68 } /* Literal.String.Backtick */
+.highlight-tomorrow_night .sc { color: #c5c8c6 } /* Literal.String.Char */
+.highlight-tomorrow_night .sd { color: #969896 } /* Literal.String.Doc */
+.highlight-tomorrow_night .s2 { color: #b5bd68 } /* Literal.String.Double */
+.highlight-tomorrow_night .se { color: #de935f } /* Literal.String.Escape */
+.highlight-tomorrow_night .sh { color: #b5bd68 } /* Literal.String.Heredoc */
+.highlight-tomorrow_night .si { color: #de935f } /* Literal.String.Interpol */
+.highlight-tomorrow_night .sx { color: #b5bd68 } /* Literal.String.Other */
+.highlight-tomorrow_night .sr { color: #b5bd68 } /* Literal.String.Regex */
+.highlight-tomorrow_night .s1 { color: #b5bd68 } /* Literal.String.Single */
+.highlight-tomorrow_night .ss { color: #b5bd68 } /* Literal.String.Symbol */
+.highlight-tomorrow_night .bp { color: #c5c8c6 } /* Name.Builtin.Pseudo */
+.highlight-tomorrow_night .vc { color: #cc6666 } /* Name.Variable.Class */
+.highlight-tomorrow_night .vg { color: #cc6666 } /* Name.Variable.Global */
+.highlight-tomorrow_night .vi { color: #cc6666 } /* Name.Variable.Instance */
+.highlight-tomorrow_night .il { color: #de935f } /* Literal.Number.Integer.Long */
+
