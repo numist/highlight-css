@@ -13,4 +13,4 @@ gem install rouge
 make
 ```
 
-New styles in Pygments and/or Rouge will be automatically detected by the [makefile](https://github.com/numist/highlight-css/blob/main/makefile).
+New styles built into Pygments and/or Rouge will be automatically detected by the [makefile](https://github.com/numist/highlight-css/blob/main/makefile).
