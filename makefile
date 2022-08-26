@@ -12,18 +12,18 @@ ROUGE_STYLES := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rou
 
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
-pygmentize_gen_html = pygmentize -S $(style) -f html -a .highlight-$(style) > stylesheets/$(style).css;
-rouge_gen_html = rougify style $(style) | sed -e 's/.highlight/.highlight-$(shell echo $(style) | sed -e 's/\./-/')/' > stylesheets/$(shell echo $(style) | sed -e 's/\./-/').css;
+pygmentize_gen_html = pygmentize -S $(style) -f html -a .highlight-pygments-$(style) > stylesheets/pygments/$(style).css;
+rouge_gen_html = rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > stylesheets/rouge/$(shell echo $(style) | sed -e 's/\./-/').css;
 
 all: rouge pygments
 
 pygments:
+	mkdir -p stylesheets/pygments
 	$(foreach style, $(PYGMENTS_STYLES), $(pygmentize_gen_html))
 
 rouge:
+	mkdir -p stylesheets/rouge
 	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_html))
-
-styles: pygments_styles rouge_styles
 
 pygments_styles:
 	echo $(PYGMENTS_STYLES)
