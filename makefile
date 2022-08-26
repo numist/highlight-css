@@ -22,7 +22,3 @@ pygments:
 
 rouge:
 	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_html))
-
-
-
-
