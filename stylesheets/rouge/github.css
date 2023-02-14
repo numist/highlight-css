@@ -1,213 +1,112 @@
 .highlight-rouge-github table td { padding: 5px; }
 .highlight-rouge-github table pre { margin: 0; }
-.highlight-rouge-github .cm {
-  color: #999988;
-  font-style: italic;
+.highlight-rouge-github, .highlight .w {
+  color: #24292f;
+  background-color: #f6f8fa;
 }
-.highlight-rouge-github .cp {
-  color: #999999;
-  font-weight: bold;
-}
-.highlight-rouge-github .c1 {
-  color: #999988;
-  font-style: italic;
-}
-.highlight-rouge-github .cs {
-  color: #999999;
-  font-weight: bold;
-  font-style: italic;
-}
-.highlight-rouge-github .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #999988;
-  font-style: italic;
-}
-.highlight-rouge-github .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-.highlight-rouge-github .gd {
-  color: #000000;
-  background-color: #ffdddd;
-}
-.highlight-rouge-github .ge {
-  color: #000000;
-  font-style: italic;
+.highlight-rouge-github .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
+  color: #cf222e;
 }
 .highlight-rouge-github .gr {
-  color: #aa0000;
+  color: #f6f8fa;
 }
-.highlight-rouge-github .gh {
-  color: #999999;
+.highlight-rouge-github .gd {
+  color: #82071e;
+  background-color: #ffebe9;
+}
+.highlight-rouge-github .nb {
+  color: #953800;
+}
+.highlight-rouge-github .nc {
+  color: #953800;
+}
+.highlight-rouge-github .no {
+  color: #953800;
+}
+.highlight-rouge-github .nn {
+  color: #953800;
+}
+.highlight-rouge-github .sr {
+  color: #116329;
+}
+.highlight-rouge-github .na {
+  color: #116329;
+}
+.highlight-rouge-github .nt {
+  color: #116329;
 }
 .highlight-rouge-github .gi {
-  color: #000000;
-  background-color: #ddffdd;
+  color: #116329;
+  background-color: #dafbe1;
 }
-.highlight-rouge-github .go {
-  color: #888888;
+.highlight-rouge-github .kc {
+  color: #0550ae;
 }
-.highlight-rouge-github .gp {
-  color: #555555;
+.highlight-rouge-github .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #0550ae;
 }
-.highlight-rouge-github .gs {
+.highlight-rouge-github .sb {
+  color: #0550ae;
+}
+.highlight-rouge-github .bp {
+  color: #0550ae;
+}
+.highlight-rouge-github .ne {
+  color: #0550ae;
+}
+.highlight-rouge-github .nl {
+  color: #0550ae;
+}
+.highlight-rouge-github .py {
+  color: #0550ae;
+}
+.highlight-rouge-github .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #0550ae;
+}
+.highlight-rouge-github .o, .highlight .ow {
+  color: #0550ae;
+}
+.highlight-rouge-github .gh {
+  color: #0550ae;
   font-weight: bold;
 }
 .highlight-rouge-github .gu {
-  color: #aaaaaa;
-}
-.highlight-rouge-github .gt {
-  color: #aa0000;
-}
-.highlight-rouge-github .kc {
-  color: #000000;
+  color: #0550ae;
   font-weight: bold;
 }
-.highlight-rouge-github .kd {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .kn {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .kp {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .kr {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .kt {
-  color: #445588;
-  font-weight: bold;
-}
-.highlight-rouge-github .k, .highlight .kv {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .mf {
-  color: #009999;
-}
-.highlight-rouge-github .mh {
-  color: #009999;
-}
-.highlight-rouge-github .il {
-  color: #009999;
-}
-.highlight-rouge-github .mi {
-  color: #009999;
-}
-.highlight-rouge-github .mo {
-  color: #009999;
-}
-.highlight-rouge-github .m, .highlight .mb, .highlight .mx {
-  color: #009999;
-}
-.highlight-rouge-github .sa {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .sb {
-  color: #d14;
-}
-.highlight-rouge-github .sc {
-  color: #d14;
-}
-.highlight-rouge-github .sd {
-  color: #d14;
-}
-.highlight-rouge-github .s2 {
-  color: #d14;
-}
-.highlight-rouge-github .se {
-  color: #d14;
-}
-.highlight-rouge-github .sh {
-  color: #d14;
-}
-.highlight-rouge-github .si {
-  color: #d14;
-}
-.highlight-rouge-github .sx {
-  color: #d14;
-}
-.highlight-rouge-github .sr {
-  color: #009926;
-}
-.highlight-rouge-github .s1 {
-  color: #d14;
-}
-.highlight-rouge-github .ss {
-  color: #990073;
-}
-.highlight-rouge-github .s, .highlight .dl {
-  color: #d14;
-}
-.highlight-rouge-github .na {
-  color: #008080;
-}
-.highlight-rouge-github .bp {
-  color: #999999;
-}
-.highlight-rouge-github .nb {
-  color: #0086B3;
-}
-.highlight-rouge-github .nc {
-  color: #445588;
-  font-weight: bold;
-}
-.highlight-rouge-github .no {
-  color: #008080;
+.highlight-rouge-github .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
+  color: #0a3069;
 }
 .highlight-rouge-github .nd {
-  color: #3c5d5d;
-  font-weight: bold;
-}
-.highlight-rouge-github .ni {
-  color: #800080;
-}
-.highlight-rouge-github .ne {
-  color: #990000;
-  font-weight: bold;
+  color: #8250df;
 }
 .highlight-rouge-github .nf, .highlight .fm {
-  color: #990000;
+  color: #8250df;
+}
+.highlight-rouge-github .err {
+  color: #f6f8fa;
+  background-color: #82071e;
+}
+.highlight-rouge-github .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #6e7781;
+}
+.highlight-rouge-github .gl {
+  color: #6e7781;
+}
+.highlight-rouge-github .gt {
+  color: #6e7781;
+}
+.highlight-rouge-github .ni {
+  color: #24292f;
+}
+.highlight-rouge-github .si {
+  color: #24292f;
+}
+.highlight-rouge-github .ge {
+  color: #24292f;
+  font-style: italic;
+}
+.highlight-rouge-github .gs {
+  color: #24292f;
   font-weight: bold;
-}
-.highlight-rouge-github .nl {
-  color: #990000;
-  font-weight: bold;
-}
-.highlight-rouge-github .nn {
-  color: #555555;
-}
-.highlight-rouge-github .nt {
-  color: #000080;
-}
-.highlight-rouge-github .vc {
-  color: #008080;
-}
-.highlight-rouge-github .vg {
-  color: #008080;
-}
-.highlight-rouge-github .vi {
-  color: #008080;
-}
-.highlight-rouge-github .nv, .highlight .vm {
-  color: #008080;
-}
-.highlight-rouge-github .ow {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .o {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight-rouge-github .w {
-  color: #bbbbbb;
-}
-.highlight-rouge-github {
-  background-color: #f8f8f8;
 }
