@@ -1,5 +1,3 @@
-$(VERBOSE).SILENT:
-
 # make sure you already ran pip install -r requirements.txt
 #
 # syntax
