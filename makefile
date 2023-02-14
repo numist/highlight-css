@@ -30,5 +30,4 @@ rouge:
 	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_html))
 
 markdown:
-
 	./scripts/update_front_matter.rb
