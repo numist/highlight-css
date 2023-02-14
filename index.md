@@ -58,6 +58,7 @@ rouge_styles:
   - bw
   - colorful
   - github
+  - github-dark
   - gruvbox
   - gruvbox-light
   - igorpro
