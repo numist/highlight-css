@@ -19,7 +19,7 @@ all: deps rouge pygments markdown
 
 deps:
 	bundle install
-	pip install -r requirements.txt
+	pip install -v -r requirements.txt
 
 pygments:
 	mkdir -p stylesheets/pygments
