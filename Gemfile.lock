@@ -1,0 +1,12 @@
+GEM
+  specs:
+    rouge (4.1.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  rouge
+
+BUNDLED WITH
+   2.3.7

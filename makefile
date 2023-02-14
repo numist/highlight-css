@@ -15,7 +15,11 @@ ROUGE_STYLES := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rou
 pygmentize_gen_html = pygmentize -S $(style) -f html -a .highlight-pygments-$(style) > stylesheets/pygments/$(style).css;
 rouge_gen_html = rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > stylesheets/rouge/$(shell echo $(style) | sed -e 's/\./-/').css;
 
-all: rouge pygments
+all: deps rouge pygments markdown
+
+deps:
+	bundle install
+	pip install -r requirements.txt
 
 pygments:
 	mkdir -p stylesheets/pygments
@@ -25,8 +29,6 @@ rouge:
 	mkdir -p stylesheets/rouge
 	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_html))
 
-pygments_styles:
-	echo $(PYGMENTS_STYLES)
+markdown:
 
-rouge_styles:
-	echo $(ROUGE_STYLES)
+	./scripts/update_front_matter.rb
