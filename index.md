@@ -2,6 +2,81 @@
 layout: page
 description: CSS files derived from Pygments' and Rouge's built-in code highlighting
   styles, plus some popular community themes.
+other_styles:
+- tomorrow_night_eighties
+- tomorrow_night_blue
+- tomorrow_night
+- tomorrow
+- son-of-obsidian
+- tomorrow_night_bright
+pygments_styles:
+- algol_nu
+- rainbow_dash
+- github-dark
+- lovelace
+- native
+- gruvbox-light
+- inkpot
+- one-dark
+- stata-dark
+- nord
+- material
+- trac
+- rrt
+- vim
+- gruvbox-dark
+- xcode
+- lilypond
+- borland
+- algol
+- perldoc
+- paraiso-dark
+- abap
+- murphy
+- sas
+- monokai
+- solarized-light
+- nord-darker
+- dracula
+- pastie
+- solarized-dark
+- manni
+- zenburn
+- bw
+- autumn
+- vs
+- fruity
+- default
+- paraiso-light
+- igor
+- friendly_grayscale
+- emacs
+- staroffice
+- friendly
+- stata-light
+- tango
+- arduino
+- stata
+- colorful
+rouge_styles:
+- gruvbox
+- github-dark
+- github
+- magritte
+- gruvbox-light
+- igorpro
+- base16-monokai
+- monokai
+- base16-dark
+- pastie
+- bw
+- monokai-sublime
+- thankful_eyes
+- base16
+- base16-solarized
+- molokai
+- tulip
+- colorful
 ---
 
 # [highlight-css](https://github.com/numist/highlight-css)
