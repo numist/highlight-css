@@ -9,18 +9,22 @@ src_dir = File.expand_path("..", script_dir)          # move up one directory
 Dir.chdir(src_dir)                                    # change the current working directory to the parent directory
 
 file_path = "index.md"
+styles_dir = "stylesheets"
 
 def get_file_names_without_extensions(directory_path)
   # Get a list of all the files in the directory
   files = Dir.entries(directory_path)
-
   # Filter out directories and hidden files
   files = files.reject { |file| File.directory?(File.join(directory_path, file)) || file.start_with?('.') }
-
   # Remove file extensions from each file name
-  file_names_without_extensions = files.map { |file| File.basename(file, '.*') }
+  files.map { |file| File.basename(file, '.*') }
+end
 
-  return file_names_without_extensions
+def get_directory_names(directory_path)
+  # Get a list of all the files in the directory
+  files = Dir.entries(directory_path)
+  # Filter out non-directories and hidden directories
+  files.select { |file| File.directory?(File.join(directory_path, file)) && !file.start_with?('.') }
 end
 
 # Read the contents of the file into a string
@@ -36,8 +40,9 @@ end
 front_matter = YAML.load(front_matter_matches[1])
 
 # Update front matter with lists of styles from the /stylesheets directory
-["other", "pygments", "rouge"].each do | type |
-  front_matter[type+"_styles"] = get_file_names_without_extensions("stylesheets/"+type)
+front_matter["styles"] = {}
+get_directory_names(styles_dir).each do | type |
+  front_matter["styles"][type] = get_file_names_without_extensions(styles_dir+"/"+type)
 end
 
 
