@@ -1,0 +1,84 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: #93a1a1; background-color: #eee8d5; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #93a1a1; background-color: #eee8d5; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-pygments-solarized-light .hll { background-color: #eee8d5 }
+.highlight-pygments-solarized-light { background: #fdf6e3; color: #657b83 }
+.highlight-pygments-solarized-light .c { color: #93a1a1; font-style: italic } /* Comment */
+.highlight-pygments-solarized-light .err { color: #657b83; background-color: #dc322f } /* Error */
+.highlight-pygments-solarized-light .esc { color: #657b83 } /* Escape */
+.highlight-pygments-solarized-light .g { color: #657b83 } /* Generic */
+.highlight-pygments-solarized-light .k { color: #859900 } /* Keyword */
+.highlight-pygments-solarized-light .l { color: #657b83 } /* Literal */
+.highlight-pygments-solarized-light .n { color: #657b83 } /* Name */
+.highlight-pygments-solarized-light .o { color: #93a1a1 } /* Operator */
+.highlight-pygments-solarized-light .x { color: #657b83 } /* Other */
+.highlight-pygments-solarized-light .p { color: #657b83 } /* Punctuation */
+.highlight-pygments-solarized-light .ch { color: #93a1a1; font-style: italic } /* Comment.Hashbang */
+.highlight-pygments-solarized-light .cm { color: #93a1a1; font-style: italic } /* Comment.Multiline */
+.highlight-pygments-solarized-light .cp { color: #d33682 } /* Comment.Preproc */
+.highlight-pygments-solarized-light .cpf { color: #93a1a1 } /* Comment.PreprocFile */
+.highlight-pygments-solarized-light .c1 { color: #93a1a1; font-style: italic } /* Comment.Single */
+.highlight-pygments-solarized-light .cs { color: #93a1a1; font-style: italic } /* Comment.Special */
+.highlight-pygments-solarized-light .gd { color: #dc322f } /* Generic.Deleted */
+.highlight-pygments-solarized-light .ge { color: #657b83; font-style: italic } /* Generic.Emph */
+.highlight-pygments-solarized-light .gr { color: #dc322f } /* Generic.Error */
+.highlight-pygments-solarized-light .gh { color: #657b83; font-weight: bold } /* Generic.Heading */
+.highlight-pygments-solarized-light .gi { color: #859900 } /* Generic.Inserted */
+.highlight-pygments-solarized-light .go { color: #657b83 } /* Generic.Output */
+.highlight-pygments-solarized-light .gp { color: #268bd2; font-weight: bold } /* Generic.Prompt */
+.highlight-pygments-solarized-light .gs { color: #657b83; font-weight: bold } /* Generic.Strong */
+.highlight-pygments-solarized-light .gu { color: #657b83; text-decoration: underline } /* Generic.Subheading */
+.highlight-pygments-solarized-light .gt { color: #268bd2 } /* Generic.Traceback */
+.highlight-pygments-solarized-light .kc { color: #2aa198 } /* Keyword.Constant */
+.highlight-pygments-solarized-light .kd { color: #2aa198 } /* Keyword.Declaration */
+.highlight-pygments-solarized-light .kn { color: #cb4b16 } /* Keyword.Namespace */
+.highlight-pygments-solarized-light .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight-pygments-solarized-light .kr { color: #859900 } /* Keyword.Reserved */
+.highlight-pygments-solarized-light .kt { color: #b58900 } /* Keyword.Type */
+.highlight-pygments-solarized-light .ld { color: #657b83 } /* Literal.Date */
+.highlight-pygments-solarized-light .m { color: #2aa198 } /* Literal.Number */
+.highlight-pygments-solarized-light .s { color: #2aa198 } /* Literal.String */
+.highlight-pygments-solarized-light .na { color: #657b83 } /* Name.Attribute */
+.highlight-pygments-solarized-light .nb { color: #268bd2 } /* Name.Builtin */
+.highlight-pygments-solarized-light .nc { color: #268bd2 } /* Name.Class */
+.highlight-pygments-solarized-light .no { color: #268bd2 } /* Name.Constant */
+.highlight-pygments-solarized-light .nd { color: #268bd2 } /* Name.Decorator */
+.highlight-pygments-solarized-light .ni { color: #268bd2 } /* Name.Entity */
+.highlight-pygments-solarized-light .ne { color: #268bd2 } /* Name.Exception */
+.highlight-pygments-solarized-light .nf { color: #268bd2 } /* Name.Function */
+.highlight-pygments-solarized-light .nl { color: #268bd2 } /* Name.Label */
+.highlight-pygments-solarized-light .nn { color: #268bd2 } /* Name.Namespace */
+.highlight-pygments-solarized-light .nx { color: #657b83 } /* Name.Other */
+.highlight-pygments-solarized-light .py { color: #657b83 } /* Name.Property */
+.highlight-pygments-solarized-light .nt { color: #268bd2 } /* Name.Tag */
+.highlight-pygments-solarized-light .nv { color: #268bd2 } /* Name.Variable */
+.highlight-pygments-solarized-light .ow { color: #859900 } /* Operator.Word */
+.highlight-pygments-solarized-light .pm { color: #657b83 } /* Punctuation.Marker */
+.highlight-pygments-solarized-light .w { color: #657b83 } /* Text.Whitespace */
+.highlight-pygments-solarized-light .mb { color: #2aa198 } /* Literal.Number.Bin */
+.highlight-pygments-solarized-light .mf { color: #2aa198 } /* Literal.Number.Float */
+.highlight-pygments-solarized-light .mh { color: #2aa198 } /* Literal.Number.Hex */
+.highlight-pygments-solarized-light .mi { color: #2aa198 } /* Literal.Number.Integer */
+.highlight-pygments-solarized-light .mo { color: #2aa198 } /* Literal.Number.Oct */
+.highlight-pygments-solarized-light .sa { color: #2aa198 } /* Literal.String.Affix */
+.highlight-pygments-solarized-light .sb { color: #2aa198 } /* Literal.String.Backtick */
+.highlight-pygments-solarized-light .sc { color: #2aa198 } /* Literal.String.Char */
+.highlight-pygments-solarized-light .dl { color: #2aa198 } /* Literal.String.Delimiter */
+.highlight-pygments-solarized-light .sd { color: #93a1a1 } /* Literal.String.Doc */
+.highlight-pygments-solarized-light .s2 { color: #2aa198 } /* Literal.String.Double */
+.highlight-pygments-solarized-light .se { color: #2aa198 } /* Literal.String.Escape */
+.highlight-pygments-solarized-light .sh { color: #2aa198 } /* Literal.String.Heredoc */
+.highlight-pygments-solarized-light .si { color: #2aa198 } /* Literal.String.Interpol */
+.highlight-pygments-solarized-light .sx { color: #2aa198 } /* Literal.String.Other */
+.highlight-pygments-solarized-light .sr { color: #cb4b16 } /* Literal.String.Regex */
+.highlight-pygments-solarized-light .s1 { color: #2aa198 } /* Literal.String.Single */
+.highlight-pygments-solarized-light .ss { color: #2aa198 } /* Literal.String.Symbol */
+.highlight-pygments-solarized-light .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
+.highlight-pygments-solarized-light .fm { color: #268bd2 } /* Name.Function.Magic */
+.highlight-pygments-solarized-light .vc { color: #268bd2 } /* Name.Variable.Class */
+.highlight-pygments-solarized-light .vg { color: #268bd2 } /* Name.Variable.Global */
+.highlight-pygments-solarized-light .vi { color: #268bd2 } /* Name.Variable.Instance */
+.highlight-pygments-solarized-light .vm { color: #268bd2 } /* Name.Variable.Magic */
+.highlight-pygments-solarized-light .il { color: #2aa198 } /* Literal.Number.Integer.Long */
