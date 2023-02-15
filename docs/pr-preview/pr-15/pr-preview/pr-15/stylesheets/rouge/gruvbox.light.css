@@ -1,0 +1,87 @@
+.highlight-rouge-gruvbox-light table td { padding: 5px; }
+.highlight-rouge-gruvbox-light table pre { margin: 0; }
+.highlight-rouge-gruvbox-light, .highlight .w {
+  color: #282828;
+  background-color: #fbf1c7;
+}
+.highlight-rouge-gruvbox-light .err {
+  color: #9d0006;
+  background-color: #fbf1c7;
+  font-weight: bold;
+}
+.highlight-rouge-gruvbox-light .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #928374;
+  font-style: italic;
+}
+.highlight-rouge-gruvbox-light .cp {
+  color: #427b58;
+}
+.highlight-rouge-gruvbox-light .nt {
+  color: #9d0006;
+}
+.highlight-rouge-gruvbox-light .o, .highlight .ow {
+  color: #282828;
+}
+.highlight-rouge-gruvbox-light .p, .highlight .pi {
+  color: #282828;
+}
+.highlight-rouge-gruvbox-light .gi {
+  color: #79740e;
+  background-color: #fbf1c7;
+}
+.highlight-rouge-gruvbox-light .gd {
+  color: #9d0006;
+  background-color: #fbf1c7;
+}
+.highlight-rouge-gruvbox-light .gh {
+  color: #79740e;
+  font-weight: bold;
+}
+.highlight-rouge-gruvbox-light .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #9d0006;
+}
+.highlight-rouge-gruvbox-light .kc {
+  color: #8f3f71;
+}
+.highlight-rouge-gruvbox-light .kt {
+  color: #b57614;
+}
+.highlight-rouge-gruvbox-light .kd {
+  color: #af3a03;
+}
+.highlight-rouge-gruvbox-light .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #79740e;
+  font-style: italic;
+}
+.highlight-rouge-gruvbox-light .si {
+  color: #79740e;
+  font-style: italic;
+}
+.highlight-rouge-gruvbox-light .sr {
+  color: #79740e;
+  font-style: italic;
+}
+.highlight-rouge-gruvbox-light .sa {
+  color: #9d0006;
+}
+.highlight-rouge-gruvbox-light .se {
+  color: #af3a03;
+}
+.highlight-rouge-gruvbox-light .nn {
+  color: #427b58;
+}
+.highlight-rouge-gruvbox-light .nc {
+  color: #427b58;
+}
+.highlight-rouge-gruvbox-light .no {
+  color: #8f3f71;
+}
+.highlight-rouge-gruvbox-light .na {
+  color: #79740e;
+}
+.highlight-rouge-gruvbox-light .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #8f3f71;
+}
+.highlight-rouge-gruvbox-light .ss {
+  color: #076678;
+}

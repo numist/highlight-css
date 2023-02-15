@@ -1,0 +1,112 @@
+.highlight-rouge-github table td { padding: 5px; }
+.highlight-rouge-github table pre { margin: 0; }
+.highlight-rouge-github, .highlight .w {
+  color: #24292f;
+  background-color: #f6f8fa;
+}
+.highlight-rouge-github .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
+  color: #cf222e;
+}
+.highlight-rouge-github .gr {
+  color: #f6f8fa;
+}
+.highlight-rouge-github .gd {
+  color: #82071e;
+  background-color: #ffebe9;
+}
+.highlight-rouge-github .nb {
+  color: #953800;
+}
+.highlight-rouge-github .nc {
+  color: #953800;
+}
+.highlight-rouge-github .no {
+  color: #953800;
+}
+.highlight-rouge-github .nn {
+  color: #953800;
+}
+.highlight-rouge-github .sr {
+  color: #116329;
+}
+.highlight-rouge-github .na {
+  color: #116329;
+}
+.highlight-rouge-github .nt {
+  color: #116329;
+}
+.highlight-rouge-github .gi {
+  color: #116329;
+  background-color: #dafbe1;
+}
+.highlight-rouge-github .kc {
+  color: #0550ae;
+}
+.highlight-rouge-github .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #0550ae;
+}
+.highlight-rouge-github .sb {
+  color: #0550ae;
+}
+.highlight-rouge-github .bp {
+  color: #0550ae;
+}
+.highlight-rouge-github .ne {
+  color: #0550ae;
+}
+.highlight-rouge-github .nl {
+  color: #0550ae;
+}
+.highlight-rouge-github .py {
+  color: #0550ae;
+}
+.highlight-rouge-github .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #0550ae;
+}
+.highlight-rouge-github .o, .highlight .ow {
+  color: #0550ae;
+}
+.highlight-rouge-github .gh {
+  color: #0550ae;
+  font-weight: bold;
+}
+.highlight-rouge-github .gu {
+  color: #0550ae;
+  font-weight: bold;
+}
+.highlight-rouge-github .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
+  color: #0a3069;
+}
+.highlight-rouge-github .nd {
+  color: #8250df;
+}
+.highlight-rouge-github .nf, .highlight .fm {
+  color: #8250df;
+}
+.highlight-rouge-github .err {
+  color: #f6f8fa;
+  background-color: #82071e;
+}
+.highlight-rouge-github .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #6e7781;
+}
+.highlight-rouge-github .gl {
+  color: #6e7781;
+}
+.highlight-rouge-github .gt {
+  color: #6e7781;
+}
+.highlight-rouge-github .ni {
+  color: #24292f;
+}
+.highlight-rouge-github .si {
+  color: #24292f;
+}
+.highlight-rouge-github .ge {
+  color: #24292f;
+  font-style: italic;
+}
+.highlight-rouge-github .gs {
+  color: #24292f;
+  font-weight: bold;
+}
