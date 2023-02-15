@@ -7,6 +7,4 @@ Primarily these are the styles built into [Pygments](http://pygments.org), with 
 build
 -----
 
-To build the stylesheets and docs, just run `make`. You will need some `ruby` (I'm using 3.1.1) and some `python` (3.10.8).
-
-New styles built into Pygments and/or Rouge will be automatically detected by the [Makefile](https://github.com/numist/highlight-css/blob/main/Makefile).
+To rebuild the stylesheets and docs, just run `make`. You will need some `ruby` (I'm using 3.1.1) and some `python` (3.10.8). This is mostly useful before merging @dependabot dependency update PRs.
