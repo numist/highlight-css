@@ -16,6 +16,6 @@ jobs:
       # - run: make?
       - uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: docs
+          source-dir: ./docs/
           preview-branch: main
           umbrella-dir: docs/pr-preview
