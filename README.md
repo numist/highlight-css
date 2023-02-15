@@ -7,10 +7,6 @@ Primarily these are the styles built into [Pygments](http://pygments.org), with 
 build
 -----
 
-```
-pip install pygments
-gem install rouge
-make
-```
+To build the stylesheets and docs, just run `make`. You will need some `ruby` (I'm using 3.1.1) and some `python` (3.10.8).
 
-New styles built into Pygments and/or Rouge will be automatically detected by the [makefile](https://github.com/numist/highlight-css/blob/main/makefile).
+New styles built into Pygments and/or Rouge will be automatically detected by the [Makefile](https://github.com/numist/highlight-css/blob/main/Makefile).
