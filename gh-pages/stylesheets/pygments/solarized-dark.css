@@ -1,0 +1,84 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: #586e75; background-color: #073642; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #586e75; background-color: #073642; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-pygments-solarized-dark .hll { background-color: #073642 }
+.highlight-pygments-solarized-dark { background: #002b36; color: #839496 }
+.highlight-pygments-solarized-dark .c { color: #586e75; font-style: italic } /* Comment */
+.highlight-pygments-solarized-dark .err { color: #839496; background-color: #dc322f } /* Error */
+.highlight-pygments-solarized-dark .esc { color: #839496 } /* Escape */
+.highlight-pygments-solarized-dark .g { color: #839496 } /* Generic */
+.highlight-pygments-solarized-dark .k { color: #859900 } /* Keyword */
+.highlight-pygments-solarized-dark .l { color: #839496 } /* Literal */
+.highlight-pygments-solarized-dark .n { color: #839496 } /* Name */
+.highlight-pygments-solarized-dark .o { color: #586e75 } /* Operator */
+.highlight-pygments-solarized-dark .x { color: #839496 } /* Other */
+.highlight-pygments-solarized-dark .p { color: #839496 } /* Punctuation */
+.highlight-pygments-solarized-dark .ch { color: #586e75; font-style: italic } /* Comment.Hashbang */
+.highlight-pygments-solarized-dark .cm { color: #586e75; font-style: italic } /* Comment.Multiline */
+.highlight-pygments-solarized-dark .cp { color: #d33682 } /* Comment.Preproc */
+.highlight-pygments-solarized-dark .cpf { color: #586e75 } /* Comment.PreprocFile */
+.highlight-pygments-solarized-dark .c1 { color: #586e75; font-style: italic } /* Comment.Single */
+.highlight-pygments-solarized-dark .cs { color: #586e75; font-style: italic } /* Comment.Special */
+.highlight-pygments-solarized-dark .gd { color: #dc322f } /* Generic.Deleted */
+.highlight-pygments-solarized-dark .ge { color: #839496; font-style: italic } /* Generic.Emph */
+.highlight-pygments-solarized-dark .gr { color: #dc322f } /* Generic.Error */
+.highlight-pygments-solarized-dark .gh { color: #839496; font-weight: bold } /* Generic.Heading */
+.highlight-pygments-solarized-dark .gi { color: #859900 } /* Generic.Inserted */
+.highlight-pygments-solarized-dark .go { color: #839496 } /* Generic.Output */
+.highlight-pygments-solarized-dark .gp { color: #268bd2; font-weight: bold } /* Generic.Prompt */
+.highlight-pygments-solarized-dark .gs { color: #839496; font-weight: bold } /* Generic.Strong */
+.highlight-pygments-solarized-dark .gu { color: #839496; text-decoration: underline } /* Generic.Subheading */
+.highlight-pygments-solarized-dark .gt { color: #268bd2 } /* Generic.Traceback */
+.highlight-pygments-solarized-dark .kc { color: #2aa198 } /* Keyword.Constant */
+.highlight-pygments-solarized-dark .kd { color: #2aa198 } /* Keyword.Declaration */
+.highlight-pygments-solarized-dark .kn { color: #cb4b16 } /* Keyword.Namespace */
+.highlight-pygments-solarized-dark .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight-pygments-solarized-dark .kr { color: #859900 } /* Keyword.Reserved */
+.highlight-pygments-solarized-dark .kt { color: #b58900 } /* Keyword.Type */
+.highlight-pygments-solarized-dark .ld { color: #839496 } /* Literal.Date */
+.highlight-pygments-solarized-dark .m { color: #2aa198 } /* Literal.Number */
+.highlight-pygments-solarized-dark .s { color: #2aa198 } /* Literal.String */
+.highlight-pygments-solarized-dark .na { color: #839496 } /* Name.Attribute */
+.highlight-pygments-solarized-dark .nb { color: #268bd2 } /* Name.Builtin */
+.highlight-pygments-solarized-dark .nc { color: #268bd2 } /* Name.Class */
+.highlight-pygments-solarized-dark .no { color: #268bd2 } /* Name.Constant */
+.highlight-pygments-solarized-dark .nd { color: #268bd2 } /* Name.Decorator */
+.highlight-pygments-solarized-dark .ni { color: #268bd2 } /* Name.Entity */
+.highlight-pygments-solarized-dark .ne { color: #268bd2 } /* Name.Exception */
+.highlight-pygments-solarized-dark .nf { color: #268bd2 } /* Name.Function */
+.highlight-pygments-solarized-dark .nl { color: #268bd2 } /* Name.Label */
+.highlight-pygments-solarized-dark .nn { color: #268bd2 } /* Name.Namespace */
+.highlight-pygments-solarized-dark .nx { color: #839496 } /* Name.Other */
+.highlight-pygments-solarized-dark .py { color: #839496 } /* Name.Property */
+.highlight-pygments-solarized-dark .nt { color: #268bd2 } /* Name.Tag */
+.highlight-pygments-solarized-dark .nv { color: #268bd2 } /* Name.Variable */
+.highlight-pygments-solarized-dark .ow { color: #859900 } /* Operator.Word */
+.highlight-pygments-solarized-dark .pm { color: #839496 } /* Punctuation.Marker */
+.highlight-pygments-solarized-dark .w { color: #839496 } /* Text.Whitespace */
+.highlight-pygments-solarized-dark .mb { color: #2aa198 } /* Literal.Number.Bin */
+.highlight-pygments-solarized-dark .mf { color: #2aa198 } /* Literal.Number.Float */
+.highlight-pygments-solarized-dark .mh { color: #2aa198 } /* Literal.Number.Hex */
+.highlight-pygments-solarized-dark .mi { color: #2aa198 } /* Literal.Number.Integer */
+.highlight-pygments-solarized-dark .mo { color: #2aa198 } /* Literal.Number.Oct */
+.highlight-pygments-solarized-dark .sa { color: #2aa198 } /* Literal.String.Affix */
+.highlight-pygments-solarized-dark .sb { color: #2aa198 } /* Literal.String.Backtick */
+.highlight-pygments-solarized-dark .sc { color: #2aa198 } /* Literal.String.Char */
+.highlight-pygments-solarized-dark .dl { color: #2aa198 } /* Literal.String.Delimiter */
+.highlight-pygments-solarized-dark .sd { color: #586e75 } /* Literal.String.Doc */
+.highlight-pygments-solarized-dark .s2 { color: #2aa198 } /* Literal.String.Double */
+.highlight-pygments-solarized-dark .se { color: #2aa198 } /* Literal.String.Escape */
+.highlight-pygments-solarized-dark .sh { color: #2aa198 } /* Literal.String.Heredoc */
+.highlight-pygments-solarized-dark .si { color: #2aa198 } /* Literal.String.Interpol */
+.highlight-pygments-solarized-dark .sx { color: #2aa198 } /* Literal.String.Other */
+.highlight-pygments-solarized-dark .sr { color: #cb4b16 } /* Literal.String.Regex */
+.highlight-pygments-solarized-dark .s1 { color: #2aa198 } /* Literal.String.Single */
+.highlight-pygments-solarized-dark .ss { color: #2aa198 } /* Literal.String.Symbol */
+.highlight-pygments-solarized-dark .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
+.highlight-pygments-solarized-dark .fm { color: #268bd2 } /* Name.Function.Magic */
+.highlight-pygments-solarized-dark .vc { color: #268bd2 } /* Name.Variable.Class */
+.highlight-pygments-solarized-dark .vg { color: #268bd2 } /* Name.Variable.Global */
+.highlight-pygments-solarized-dark .vi { color: #268bd2 } /* Name.Variable.Instance */
+.highlight-pygments-solarized-dark .vm { color: #268bd2 } /* Name.Variable.Magic */
+.highlight-pygments-solarized-dark .il { color: #2aa198 } /* Literal.Number.Integer.Long */

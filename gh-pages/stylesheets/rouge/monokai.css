@@ -1,0 +1,214 @@
+.highlight-rouge-monokai table td { padding: 5px; }
+.highlight-rouge-monokai table pre { margin: 0; }
+.highlight-rouge-monokai .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #75715e;
+  font-style: italic;
+}
+.highlight-rouge-monokai .cm {
+  color: #75715e;
+  font-style: italic;
+}
+.highlight-rouge-monokai .c1 {
+  color: #75715e;
+  font-style: italic;
+}
+.highlight-rouge-monokai .cp {
+  color: #75715e;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .cs {
+  color: #75715e;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-monokai .err {
+  color: #960050;
+  background-color: #1e0010;
+}
+.highlight-rouge-monokai .gi {
+  color: #ffffff;
+  background-color: #324932;
+}
+.highlight-rouge-monokai .gd {
+  color: #ffffff;
+  background-color: #493131;
+}
+.highlight-rouge-monokai .ge {
+  color: #000000;
+  font-style: italic;
+}
+.highlight-rouge-monokai .gr {
+  color: #aa0000;
+}
+.highlight-rouge-monokai .gt {
+  color: #aa0000;
+}
+.highlight-rouge-monokai .gh {
+  color: #999999;
+}
+.highlight-rouge-monokai .go {
+  color: #888888;
+}
+.highlight-rouge-monokai .gp {
+  color: #555555;
+}
+.highlight-rouge-monokai .gs {
+  font-weight: bold;
+}
+.highlight-rouge-monokai .gu {
+  color: #aaaaaa;
+}
+.highlight-rouge-monokai .k, .highlight .kv {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kc {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kd {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kp {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kr {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kt {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .kn {
+  color: #f92672;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .ow {
+  color: #f92672;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .o {
+  color: #f92672;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .mf {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .mh {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .il {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .mi {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .mo {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .se {
+  color: #ae81ff;
+}
+.highlight-rouge-monokai .sa {
+  color: #66d9ef;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .sb {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .sc {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .sd {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .s2 {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .sh {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .si {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .sx {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .sr {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .s1 {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .ss {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .s, .highlight .dl {
+  color: #e6db74;
+}
+.highlight-rouge-monokai .na {
+  color: #a6e22e;
+}
+.highlight-rouge-monokai .nc {
+  color: #a6e22e;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .nd {
+  color: #a6e22e;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .ne {
+  color: #a6e22e;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .nf, .highlight .fm {
+  color: #a6e22e;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .no {
+  color: #66d9ef;
+}
+.highlight-rouge-monokai .bp {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .nb {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .ni {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .nn {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .vc {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .vg {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .vi {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .nv, .highlight .vm {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .w {
+  color: #f8f8f2;
+}
+.highlight-rouge-monokai .nl {
+  color: #f8f8f2;
+  font-weight: bold;
+}
+.highlight-rouge-monokai .nt {
+  color: #f92672;
+}
+.highlight-rouge-monokai {
+  color: #f8f8f2;
+  background-color: #49483e;
+}

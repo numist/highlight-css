@@ -1,0 +1,49 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-pygments-algol_nu .hll { background-color: #ffffcc }
+.highlight-pygments-algol_nu { background: #ffffff; }
+.highlight-pygments-algol_nu .c { color: #888888; font-style: italic } /* Comment */
+.highlight-pygments-algol_nu .err { border: 1px solid #FF0000 } /* Error */
+.highlight-pygments-algol_nu .k { font-weight: bold } /* Keyword */
+.highlight-pygments-algol_nu .ch { color: #888888; font-style: italic } /* Comment.Hashbang */
+.highlight-pygments-algol_nu .cm { color: #888888; font-style: italic } /* Comment.Multiline */
+.highlight-pygments-algol_nu .cp { color: #888888; font-weight: bold } /* Comment.Preproc */
+.highlight-pygments-algol_nu .cpf { color: #888888; font-style: italic } /* Comment.PreprocFile */
+.highlight-pygments-algol_nu .c1 { color: #888888; font-style: italic } /* Comment.Single */
+.highlight-pygments-algol_nu .cs { color: #888888; font-weight: bold } /* Comment.Special */
+.highlight-pygments-algol_nu .kc { font-weight: bold } /* Keyword.Constant */
+.highlight-pygments-algol_nu .kd { font-weight: bold; font-style: italic } /* Keyword.Declaration */
+.highlight-pygments-algol_nu .kn { font-weight: bold } /* Keyword.Namespace */
+.highlight-pygments-algol_nu .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight-pygments-algol_nu .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight-pygments-algol_nu .kt { font-weight: bold } /* Keyword.Type */
+.highlight-pygments-algol_nu .s { color: #666666; font-style: italic } /* Literal.String */
+.highlight-pygments-algol_nu .nb { font-weight: bold; font-style: italic } /* Name.Builtin */
+.highlight-pygments-algol_nu .nc { color: #666666; font-weight: bold; font-style: italic } /* Name.Class */
+.highlight-pygments-algol_nu .no { color: #666666; font-weight: bold; font-style: italic } /* Name.Constant */
+.highlight-pygments-algol_nu .nf { color: #666666; font-weight: bold; font-style: italic } /* Name.Function */
+.highlight-pygments-algol_nu .nn { color: #666666; font-weight: bold; font-style: italic } /* Name.Namespace */
+.highlight-pygments-algol_nu .nv { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable */
+.highlight-pygments-algol_nu .ow { font-weight: bold } /* Operator.Word */
+.highlight-pygments-algol_nu .sa { color: #666666; font-style: italic } /* Literal.String.Affix */
+.highlight-pygments-algol_nu .sb { color: #666666; font-style: italic } /* Literal.String.Backtick */
+.highlight-pygments-algol_nu .sc { color: #666666; font-style: italic } /* Literal.String.Char */
+.highlight-pygments-algol_nu .dl { color: #666666; font-style: italic } /* Literal.String.Delimiter */
+.highlight-pygments-algol_nu .sd { color: #666666; font-style: italic } /* Literal.String.Doc */
+.highlight-pygments-algol_nu .s2 { color: #666666; font-style: italic } /* Literal.String.Double */
+.highlight-pygments-algol_nu .se { color: #666666; font-style: italic } /* Literal.String.Escape */
+.highlight-pygments-algol_nu .sh { color: #666666; font-style: italic } /* Literal.String.Heredoc */
+.highlight-pygments-algol_nu .si { color: #666666; font-style: italic } /* Literal.String.Interpol */
+.highlight-pygments-algol_nu .sx { color: #666666; font-style: italic } /* Literal.String.Other */
+.highlight-pygments-algol_nu .sr { color: #666666; font-style: italic } /* Literal.String.Regex */
+.highlight-pygments-algol_nu .s1 { color: #666666; font-style: italic } /* Literal.String.Single */
+.highlight-pygments-algol_nu .ss { color: #666666; font-style: italic } /* Literal.String.Symbol */
+.highlight-pygments-algol_nu .bp { font-weight: bold; font-style: italic } /* Name.Builtin.Pseudo */
+.highlight-pygments-algol_nu .fm { color: #666666; font-weight: bold; font-style: italic } /* Name.Function.Magic */
+.highlight-pygments-algol_nu .vc { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Class */
+.highlight-pygments-algol_nu .vg { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Global */
+.highlight-pygments-algol_nu .vi { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Instance */
+.highlight-pygments-algol_nu .vm { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Magic */

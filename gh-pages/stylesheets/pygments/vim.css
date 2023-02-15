@@ -1,0 +1,84 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight-pygments-vim .hll { background-color: #222222 }
+.highlight-pygments-vim { background: #000000; color: #cccccc }
+.highlight-pygments-vim .c { color: #000080 } /* Comment */
+.highlight-pygments-vim .err { color: #cccccc; border: 1px solid #FF0000 } /* Error */
+.highlight-pygments-vim .esc { color: #cccccc } /* Escape */
+.highlight-pygments-vim .g { color: #cccccc } /* Generic */
+.highlight-pygments-vim .k { color: #cdcd00 } /* Keyword */
+.highlight-pygments-vim .l { color: #cccccc } /* Literal */
+.highlight-pygments-vim .n { color: #cccccc } /* Name */
+.highlight-pygments-vim .o { color: #3399cc } /* Operator */
+.highlight-pygments-vim .x { color: #cccccc } /* Other */
+.highlight-pygments-vim .p { color: #cccccc } /* Punctuation */
+.highlight-pygments-vim .ch { color: #000080 } /* Comment.Hashbang */
+.highlight-pygments-vim .cm { color: #000080 } /* Comment.Multiline */
+.highlight-pygments-vim .cp { color: #000080 } /* Comment.Preproc */
+.highlight-pygments-vim .cpf { color: #000080 } /* Comment.PreprocFile */
+.highlight-pygments-vim .c1 { color: #000080 } /* Comment.Single */
+.highlight-pygments-vim .cs { color: #cd0000; font-weight: bold } /* Comment.Special */
+.highlight-pygments-vim .gd { color: #cd0000 } /* Generic.Deleted */
+.highlight-pygments-vim .ge { color: #cccccc; font-style: italic } /* Generic.Emph */
+.highlight-pygments-vim .gr { color: #FF0000 } /* Generic.Error */
+.highlight-pygments-vim .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight-pygments-vim .gi { color: #00cd00 } /* Generic.Inserted */
+.highlight-pygments-vim .go { color: #888888 } /* Generic.Output */
+.highlight-pygments-vim .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight-pygments-vim .gs { color: #cccccc; font-weight: bold } /* Generic.Strong */
+.highlight-pygments-vim .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight-pygments-vim .gt { color: #0044DD } /* Generic.Traceback */
+.highlight-pygments-vim .kc { color: #cdcd00 } /* Keyword.Constant */
+.highlight-pygments-vim .kd { color: #00cd00 } /* Keyword.Declaration */
+.highlight-pygments-vim .kn { color: #cd00cd } /* Keyword.Namespace */
+.highlight-pygments-vim .kp { color: #cdcd00 } /* Keyword.Pseudo */
+.highlight-pygments-vim .kr { color: #cdcd00 } /* Keyword.Reserved */
+.highlight-pygments-vim .kt { color: #00cd00 } /* Keyword.Type */
+.highlight-pygments-vim .ld { color: #cccccc } /* Literal.Date */
+.highlight-pygments-vim .m { color: #cd00cd } /* Literal.Number */
+.highlight-pygments-vim .s { color: #cd0000 } /* Literal.String */
+.highlight-pygments-vim .na { color: #cccccc } /* Name.Attribute */
+.highlight-pygments-vim .nb { color: #cd00cd } /* Name.Builtin */
+.highlight-pygments-vim .nc { color: #00cdcd } /* Name.Class */
+.highlight-pygments-vim .no { color: #cccccc } /* Name.Constant */
+.highlight-pygments-vim .nd { color: #cccccc } /* Name.Decorator */
+.highlight-pygments-vim .ni { color: #cccccc } /* Name.Entity */
+.highlight-pygments-vim .ne { color: #666699; font-weight: bold } /* Name.Exception */
+.highlight-pygments-vim .nf { color: #cccccc } /* Name.Function */
+.highlight-pygments-vim .nl { color: #cccccc } /* Name.Label */
+.highlight-pygments-vim .nn { color: #cccccc } /* Name.Namespace */
+.highlight-pygments-vim .nx { color: #cccccc } /* Name.Other */
+.highlight-pygments-vim .py { color: #cccccc } /* Name.Property */
+.highlight-pygments-vim .nt { color: #cccccc } /* Name.Tag */
+.highlight-pygments-vim .nv { color: #00cdcd } /* Name.Variable */
+.highlight-pygments-vim .ow { color: #cdcd00 } /* Operator.Word */
+.highlight-pygments-vim .pm { color: #cccccc } /* Punctuation.Marker */
+.highlight-pygments-vim .w { color: #cccccc } /* Text.Whitespace */
+.highlight-pygments-vim .mb { color: #cd00cd } /* Literal.Number.Bin */
+.highlight-pygments-vim .mf { color: #cd00cd } /* Literal.Number.Float */
+.highlight-pygments-vim .mh { color: #cd00cd } /* Literal.Number.Hex */
+.highlight-pygments-vim .mi { color: #cd00cd } /* Literal.Number.Integer */
+.highlight-pygments-vim .mo { color: #cd00cd } /* Literal.Number.Oct */
+.highlight-pygments-vim .sa { color: #cd0000 } /* Literal.String.Affix */
+.highlight-pygments-vim .sb { color: #cd0000 } /* Literal.String.Backtick */
+.highlight-pygments-vim .sc { color: #cd0000 } /* Literal.String.Char */
+.highlight-pygments-vim .dl { color: #cd0000 } /* Literal.String.Delimiter */
+.highlight-pygments-vim .sd { color: #cd0000 } /* Literal.String.Doc */
+.highlight-pygments-vim .s2 { color: #cd0000 } /* Literal.String.Double */
+.highlight-pygments-vim .se { color: #cd0000 } /* Literal.String.Escape */
+.highlight-pygments-vim .sh { color: #cd0000 } /* Literal.String.Heredoc */
+.highlight-pygments-vim .si { color: #cd0000 } /* Literal.String.Interpol */
+.highlight-pygments-vim .sx { color: #cd0000 } /* Literal.String.Other */
+.highlight-pygments-vim .sr { color: #cd0000 } /* Literal.String.Regex */
+.highlight-pygments-vim .s1 { color: #cd0000 } /* Literal.String.Single */
+.highlight-pygments-vim .ss { color: #cd0000 } /* Literal.String.Symbol */
+.highlight-pygments-vim .bp { color: #cd00cd } /* Name.Builtin.Pseudo */
+.highlight-pygments-vim .fm { color: #cccccc } /* Name.Function.Magic */
+.highlight-pygments-vim .vc { color: #00cdcd } /* Name.Variable.Class */
+.highlight-pygments-vim .vg { color: #00cdcd } /* Name.Variable.Global */
+.highlight-pygments-vim .vi { color: #00cdcd } /* Name.Variable.Instance */
+.highlight-pygments-vim .vm { color: #00cdcd } /* Name.Variable.Magic */
+.highlight-pygments-vim .il { color: #cd00cd } /* Literal.Number.Integer.Long */
