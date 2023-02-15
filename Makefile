@@ -4,28 +4,21 @@ $(VERBOSE).SILENT:
 # Phony targets
 #
 
-.PHONY: all clean list FORCE
+PAGES_PATH = docs
 
-all: gh-pages/index.md
+.DEFAULT_GOAL := all
 
-list:
-	@LC_ALL=C $(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/(^|\n)# Files(\n|$$)/,/(^|\n)# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
-
-clean:
-	rm "$(PYGMENTS_STYLESHEET_PATH)"/*.css &> /dev/null ||:
-	rm Rouge/*.css &> /dev/null ||:
-	rm gh-pages/stylesheets/{pygments,rouge}/*.cs &> /dev/null ||:
-	./gh-pages/scripts/update_front_matter.rb
+#
+# Dependencies
+#
 
 requirements.txt: FORCE
-	echo "Dependency: $@"
-	pip install -r requirements.txt
+	echo "Installing dependencies from $@"
+	pip install -r requirements.txt > /dev/null
 
 Gemfile.lock: FORCE
-	echo "Install: $@ dependencies"
-	bundle install
-
-FORCE:
+	echo "Installing dependencies from $@"
+	bundle install > /dev/null
 
 #
 # Pygments
@@ -34,7 +27,7 @@ FORCE:
 PYGMENTS_STYLESHEET_PATH = "Pygments"
 PYGMENTS_STYLESHEETS := $(shell python3 -c "from pygments.styles import get_all_styles; print('\n'.join([f'$(PYGMENTS_STYLESHEET_PATH)/{style}.css' for style in list(get_all_styles())]))")
 
-PYGMENTS_PREVIEW_PATH = "gh-pages/stylesheets/pygments"
+PYGMENTS_PREVIEW_PATH = "$(PAGES_PATH)/stylesheets/pygments"
 PYGMENTS_PREVIEWS := $(shell python3 -c "from pygments.styles import get_all_styles; print('\n'.join([f'$(PYGMENTS_PREVIEW_PATH)/{style}.css' for style in list(get_all_styles())]))")
 
 $(PYGMENTS_STYLESHEETS): requirements.txt
@@ -57,7 +50,7 @@ Pygments: $(PYGMENTS_STYLESHEETS) $(PYGMENTS_PREVIEWS)
 ROUGE_STYLESHEET_PATH = "Rouge"
 ROUGE_STYLESHEETS := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rouge::CSSTheme.subclasses.map(&:subclasses)).flatten.map(&:name).map{ |style| $(ROUGE_STYLESHEET_PATH)+"/"+style+".css" }')
 
-ROUGE_PREVIEW_PATH = "gh-pages/stylesheets/rouge"
+ROUGE_PREVIEW_PATH = "$(PAGES_PATH)/stylesheets/rouge"
 ROUGE_PREVIEWS := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rouge::CSSTheme.subclasses.map(&:subclasses)).flatten.map(&:name).map{ |style| $(ROUGE_PREVIEW_PATH)+"/"+style+".css" }')
 
 $(ROUGE_STYLESHEETS): Gemfile.lock
@@ -77,6 +70,23 @@ Rouge: $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS)
 # GitHub Pages
 #
 
-gh-pages/index.md: Pygments Rouge
+$(PAGES_PATH)/index.md: $(PYGMENTS_PREVIEWS) $(ROUGE_PREVIEWS)
 	echo "Updating: $@"
-	./gh-pages/scripts/update_front_matter.rb
+	./$(PAGES_PATH)/scripts/update_front_matter.rb
+
+#
+# Phony targets
+#
+
+.PHONY: all clean list FORCE
+
+all: Pygments Rouge $(PAGES_PATH)/index.md
+
+list:
+	@LC_ALL=C $(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/(^|\n)# Files(\n|$$)/,/(^|\n)# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
+
+clean:
+	rm $(PYGMENTS_STYLESHEET_PATH)/*.css $(ROUGE_STYLESHEET_PATH)/*.css $(PAGES_PATH)/stylesheets/{pygments,rouge}/*.css ||:
+	./$(PAGES_PATH)/scripts/update_front_matter.rb
+
+FORCE:
