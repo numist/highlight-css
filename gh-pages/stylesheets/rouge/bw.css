@@ -1,0 +1,66 @@
+.highlight-rouge-bw table td { padding: 5px; }
+.highlight-rouge-bw table pre { margin: 0; }
+.highlight-rouge-bw, .highlight .w {
+  color: #000000;
+  background-color: #ffffff;
+}
+.highlight-rouge-bw .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  font-style: italic;
+}
+.highlight-rouge-bw .cp {
+}
+.highlight-rouge-bw .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kv {
+  font-weight: bold;
+}
+.highlight-rouge-bw .kp {
+}
+.highlight-rouge-bw .kt {
+}
+.highlight-rouge-bw .o, .highlight .ow {
+  font-weight: bold;
+}
+.highlight-rouge-bw .nc {
+  font-weight: bold;
+}
+.highlight-rouge-bw .nn {
+  font-weight: bold;
+}
+.highlight-rouge-bw .ne {
+  font-weight: bold;
+}
+.highlight-rouge-bw .ni {
+  font-weight: bold;
+}
+.highlight-rouge-bw .nt {
+  font-weight: bold;
+}
+.highlight-rouge-bw .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  font-style: italic;
+}
+.highlight-rouge-bw .sa {
+  font-weight: bold;
+}
+.highlight-rouge-bw .si {
+  font-weight: bold;
+}
+.highlight-rouge-bw .se {
+  font-weight: bold;
+}
+.highlight-rouge-bw .gh {
+  font-weight: bold;
+}
+.highlight-rouge-bw .gu {
+  font-weight: bold;
+}
+.highlight-rouge-bw .ge {
+  font-style: italic;
+}
+.highlight-rouge-bw .gs {
+  font-weight: bold;
+}
+.highlight-rouge-bw .gp {
+  font-weight: bold;
+}
+.highlight-rouge-bw .err {
+  color: #FF0000;
+}
