@@ -1,70 +1,82 @@
 $(VERBOSE).SILENT:
 
-# Lists of all style names supported by each tool
-PYGMENTS_STYLES := $(shell python3 -c "from pygments.styles import get_all_styles; print(\"\n\".join(list(get_all_styles())))")
-ROUGE_STYLES := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rouge::CSSTheme.subclasses.map(&:subclasses)).flatten.map(&:name)')
-
-# Generate stylesheets for drop-in use in Jekyll and other sites
-pygmentize_gen_css = echo "/* This file was generated using \`pygmentize -S $(style) -f html -a .highlight\` */" > Pygments/$(style).css; pygmentize -S $(style) -f html -a .highlight >> Pygments/$(style).css;
-rouge_gen_css = echo "/* This file was generated using \`rougify style $(style)\` */" > Rouge/$(shell echo $(style) | sed -e 's/\./-/').css; rougify style $(style) >> Rouge/$(shell echo $(style) | sed -e 's/\./-/').css;
-
-# Generate stylesheets with custom classes prefixed by ".highlight-$(family)-$(style)"
-pygmentize_gen_preview_css = pygmentize -S $(style) -f html -a .highlight-pygments-$(style) > gh-pages/stylesheets/pygments/$(style).css;
-rouge_gen_preview_css = rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > gh-pages/stylesheets/rouge/$(shell echo $(style) | sed -e 's/\./-/').css;
-
-
-
 #
 # Phony targets
 #
-# TODO: probably `deps` could be broken into two file targets (`Gemfile.lock` and `requirements.txt`) but clean builds don't take very long so there's not much point at the moment
 
-.PHONY: all deps
+.PHONY: all clean list FORCE
 
-all: Pygments Rouge gh-pages/index.md
+all: gh-pages/index.md
 
-deps:
-	echo "Installing dependencies: rouge pygments"
-	bundle install > /dev/null
-	pip install -v -r requirements.txt > /dev/null
+list:
+	@LC_ALL=C $(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/(^|\n)# Files(\n|$$)/,/(^|\n)# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
 
-#
-# GitHub Pages
-#
-
-gh-pages/index.md: gh-pages/stylesheets/pygments gh-pages/stylesheets/rouge
-	echo "Updating: $@"
+clean:
+	rm "$(PYGMENTS_STYLESHEET_PATH)"/*.css &> /dev/null ||:
+	rm Rouge/*.css &> /dev/null ||:
+	rm gh-pages/stylesheets/{pygments,rouge}/*.cs &> /dev/null ||:
 	./gh-pages/scripts/update_front_matter.rb
+
+requirements.txt: FORCE
+	echo "Dependency: $@"
+	pip install -r requirements.txt
+
+Gemfile.lock: FORCE
+	echo "Install: $@ dependencies"
+	bundle install
+
+FORCE:
 
 #
 # Pygments
 #
 
-Pygments: deps
-	echo "Building: CSS files for $@"
-	mkdir -p $@
-	rm $@/*.css &> /dev/null
-	$(foreach style, $(PYGMENTS_STYLES), $(pygmentize_gen_css))
+PYGMENTS_STYLESHEET_PATH = "Pygments"
+PYGMENTS_STYLESHEETS := $(shell python3 -c "from pygments.styles import get_all_styles; print('\n'.join([f'$(PYGMENTS_STYLESHEET_PATH)/{style}.css' for style in list(get_all_styles())]))")
 
-gh-pages/stylesheets/pygments: deps
-	echo "Building: CSS files for $@"
-	mkdir -p $@
-	rm $@/*.css &> /dev/null
-	$(foreach style, $(PYGMENTS_STYLES), $(pygmentize_gen_preview_css))
+PYGMENTS_PREVIEW_PATH = "gh-pages/stylesheets/pygments"
+PYGMENTS_PREVIEWS := $(shell python3 -c "from pygments.styles import get_all_styles; print('\n'.join([f'$(PYGMENTS_PREVIEW_PATH)/{style}.css' for style in list(get_all_styles())]))")
+
+$(PYGMENTS_STYLESHEETS): requirements.txt
+	echo "Building: $@"
+	$(eval style=$(basename $(notdir $@)))
+	echo "/* This file was generated using \`pygmentize -S $(style) -f html -a .highlight\` */" > $@
+	pygmentize -S $(style) -f html -a .highlight >> $@
+
+$(PYGMENTS_PREVIEWS): requirements.txt
+	echo "Building: $@"
+	$(eval style=$(basename $(notdir $@)))
+	pygmentize -S $(style) -f html -a .highlight-pygments-$(style) > $@
+
+Pygments: $(PYGMENTS_STYLESHEETS) $(PYGMENTS_PREVIEWS)
 
 #
 # Rouge
 #
 
-Rouge: deps
-	echo "Building: CSS files for $@"
-	mkdir -p $@
-	rm $@/*.css &> /dev/null
-	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_css))
+ROUGE_STYLESHEET_PATH = "Rouge"
+ROUGE_STYLESHEETS := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rouge::CSSTheme.subclasses.map(&:subclasses)).flatten.map(&:name).map{ |style| $(ROUGE_STYLESHEET_PATH)+"/"+style+".css" }')
 
-gh-pages/stylesheets/rouge: deps
-	echo "Building: CSS files for $@"
-	mkdir -p $@
-	rm $@/*.css &> /dev/null
-	$(foreach style, $(ROUGE_STYLES), $(rouge_gen_preview_css))
+ROUGE_PREVIEW_PATH = "gh-pages/stylesheets/rouge"
+ROUGE_PREVIEWS := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rouge::CSSTheme.subclasses.map(&:subclasses)).flatten.map(&:name).map{ |style| $(ROUGE_PREVIEW_PATH)+"/"+style+".css" }')
 
+$(ROUGE_STYLESHEETS): Gemfile.lock
+	echo "Building: $@"
+	$(eval style=$(basename $(notdir $@)))
+	echo "/* This file was generated using \`rougify style $(style)\` */" > $@
+	rougify style $(style) >> $@
+
+$(ROUGE_PREVIEWS): Gemfile.lock
+	echo "Building: $@"
+	$(eval style=$(basename $(notdir $@)))
+	rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > $@
+
+Rouge: $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS)
+
+#
+# GitHub Pages
+#
+
+gh-pages/index.md: Pygments Rouge
+	echo "Updating: $@"
+	./gh-pages/scripts/update_front_matter.rb
