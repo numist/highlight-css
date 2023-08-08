@@ -62,20 +62,20 @@ styles:
   - tomorrow_night_bright
   rouge:
   - gruvbox
+  - github-dark
   - github
   - magritte
-  - base16.solarized
+  - gruvbox-light
   - igorpro
-  - monokai.sublime
-  - github.dark
+  - base16-monokai
   - monokai
+  - base16-dark
   - pastie
-  - base16.monokai
   - bw
-  - gruvbox.light
+  - monokai-sublime
   - thankful_eyes
-  - base16.dark
   - base16
+  - base16-solarized
   - molokai
   - tulip
   - colorful
