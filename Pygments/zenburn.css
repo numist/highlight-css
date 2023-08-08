@@ -24,6 +24,7 @@ span.linenos.special { color: #7a8080; background-color: #353535; padding-left: 
 .highlight .cs { color: #dfdfdf; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #c3bf9f; font-weight: bold; background-color: #313c36 } /* Generic.Deleted */
 .highlight .ge { color: #ffffff; font-weight: bold } /* Generic.Emph */
+.highlight .ges { color: #ecbcbc; font-weight: bold } /* Generic.EmphStrong */
 .highlight .gr { color: #ecbcbc; font-weight: bold } /* Generic.Error */
 .highlight .gh { color: #efefef; font-weight: bold } /* Generic.Heading */
 .highlight .gi { color: #709080; font-weight: bold; background-color: #313c36 } /* Generic.Inserted */
