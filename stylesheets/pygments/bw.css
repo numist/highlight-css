@@ -14,6 +14,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-bw .c1 { font-style: italic } /* Comment.Single */
 .highlight-pygments-bw .cs { font-style: italic } /* Comment.Special */
 .highlight-pygments-bw .ge { font-style: italic } /* Generic.Emph */
+.highlight-pygments-bw .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .highlight-pygments-bw .gh { font-weight: bold } /* Generic.Heading */
 .highlight-pygments-bw .gp { font-weight: bold } /* Generic.Prompt */
 .highlight-pygments-bw .gs { font-weight: bold } /* Generic.Strong */

@@ -22,6 +22,7 @@ span.linenos.special { color: #607A86; background-color: #263238; padding-left: 
 .highlight-pygments-material .cs { color: #546E7A; font-style: italic } /* Comment.Special */
 .highlight-pygments-material .gd { color: #FF5370 } /* Generic.Deleted */
 .highlight-pygments-material .ge { color: #89DDFF } /* Generic.Emph */
+.highlight-pygments-material .ges { color: #FFCB6B } /* Generic.EmphStrong */
 .highlight-pygments-material .gr { color: #FF5370 } /* Generic.Error */
 .highlight-pygments-material .gh { color: #C3E88D } /* Generic.Heading */
 .highlight-pygments-material .gi { color: #C3E88D } /* Generic.Inserted */
