@@ -42,6 +42,7 @@ styles:
   - fruity
   - default
   - paraiso-light
+  - lightbulb
   - igor
   - friendly_grayscale
   - emacs

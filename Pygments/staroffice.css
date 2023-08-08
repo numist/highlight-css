@@ -24,6 +24,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .cs { color: #696969 } /* Comment.Special */
 .highlight .gd { color: #000080 } /* Generic.Deleted */
 .highlight .ge { color: #000080 } /* Generic.Emph */
+.highlight .ges { color: #000080 } /* Generic.EmphStrong */
 .highlight .gr { color: #000080 } /* Generic.Error */
 .highlight .gh { color: #000080 } /* Generic.Heading */
 .highlight .gi { color: #000080 } /* Generic.Inserted */

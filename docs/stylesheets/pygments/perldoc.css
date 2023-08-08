@@ -16,6 +16,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-perldoc .cs { color: #8B008B; font-weight: bold } /* Comment.Special */
 .highlight-pygments-perldoc .gd { color: #aa0000 } /* Generic.Deleted */
 .highlight-pygments-perldoc .ge { font-style: italic } /* Generic.Emph */
+.highlight-pygments-perldoc .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .highlight-pygments-perldoc .gr { color: #aa0000 } /* Generic.Error */
 .highlight-pygments-perldoc .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .highlight-pygments-perldoc .gi { color: #00aa00 } /* Generic.Inserted */

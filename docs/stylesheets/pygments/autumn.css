@@ -16,6 +16,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-autumn .cs { color: #0000aa; font-style: italic } /* Comment.Special */
 .highlight-pygments-autumn .gd { color: #aa0000 } /* Generic.Deleted */
 .highlight-pygments-autumn .ge { font-style: italic } /* Generic.Emph */
+.highlight-pygments-autumn .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .highlight-pygments-autumn .gr { color: #aa0000 } /* Generic.Error */
 .highlight-pygments-autumn .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .highlight-pygments-autumn .gi { color: #00aa00 } /* Generic.Inserted */

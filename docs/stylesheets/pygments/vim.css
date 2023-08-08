@@ -23,6 +23,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-vim .cs { color: #cd0000; font-weight: bold } /* Comment.Special */
 .highlight-pygments-vim .gd { color: #cd0000 } /* Generic.Deleted */
 .highlight-pygments-vim .ge { color: #cccccc; font-style: italic } /* Generic.Emph */
+.highlight-pygments-vim .ges { color: #cccccc; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .highlight-pygments-vim .gr { color: #FF0000 } /* Generic.Error */
 .highlight-pygments-vim .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .highlight-pygments-vim .gi { color: #00cd00 } /* Generic.Inserted */
