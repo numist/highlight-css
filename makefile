@@ -11,7 +11,7 @@ ROUGE_STYLES := $(shell ruby -r rouge -e 'puts (Rouge::CSSTheme.subclasses + Rou
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
 pygmentize_gen_html = pygmentize -S $(style) -f html -a .highlight-pygments-$(style) > stylesheets/pygments/$(style).css;
-rouge_gen_html = rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > stylesheets/rouge/$(shell echo $(style) | sed -e 's/\./-/').css;
+rouge_gen_html = rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(style)/' > stylesheets/rouge/$(style).css;
 
 all: deps rouge pygments markdown
 
