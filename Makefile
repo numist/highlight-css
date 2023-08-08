@@ -62,7 +62,7 @@ $(ROUGE_STYLESHEETS): Gemfile.lock
 $(ROUGE_PREVIEWS): Gemfile.lock
 	echo "Building: $@"
 	$(eval style=$(basename $(notdir $@)))
-	rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./-/')/' > $@
+	rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./\\\\\./')/' > $@
 
 Rouge: $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS)
 
