@@ -39,7 +39,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-rrt .kr { color: #ff0000 } /* Keyword.Reserved */
 .highlight-pygments-rrt .kt { color: #ee82ee } /* Keyword.Type */
 .highlight-pygments-rrt .ld { color: #dddddd } /* Literal.Date */
-.highlight-pygments-rrt .m { color: #dddddd } /* Literal.Number */
+.highlight-pygments-rrt .m { color: #ff00ff } /* Literal.Number */
 .highlight-pygments-rrt .s { color: #87ceeb } /* Literal.String */
 .highlight-pygments-rrt .na { color: #dddddd } /* Name.Attribute */
 .highlight-pygments-rrt .nb { color: #dddddd } /* Name.Builtin */
@@ -58,11 +58,11 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-rrt .ow { color: #dddddd } /* Operator.Word */
 .highlight-pygments-rrt .pm { color: #dddddd } /* Punctuation.Marker */
 .highlight-pygments-rrt .w { color: #dddddd } /* Text.Whitespace */
-.highlight-pygments-rrt .mb { color: #dddddd } /* Literal.Number.Bin */
-.highlight-pygments-rrt .mf { color: #dddddd } /* Literal.Number.Float */
-.highlight-pygments-rrt .mh { color: #dddddd } /* Literal.Number.Hex */
-.highlight-pygments-rrt .mi { color: #dddddd } /* Literal.Number.Integer */
-.highlight-pygments-rrt .mo { color: #dddddd } /* Literal.Number.Oct */
+.highlight-pygments-rrt .mb { color: #ff00ff } /* Literal.Number.Bin */
+.highlight-pygments-rrt .mf { color: #ff00ff } /* Literal.Number.Float */
+.highlight-pygments-rrt .mh { color: #ff00ff } /* Literal.Number.Hex */
+.highlight-pygments-rrt .mi { color: #ff00ff } /* Literal.Number.Integer */
+.highlight-pygments-rrt .mo { color: #ff00ff } /* Literal.Number.Oct */
 .highlight-pygments-rrt .sa { color: #87ceeb } /* Literal.String.Affix */
 .highlight-pygments-rrt .sb { color: #87ceeb } /* Literal.String.Backtick */
 .highlight-pygments-rrt .sc { color: #87ceeb } /* Literal.String.Char */
@@ -82,4 +82,4 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-rrt .vg { color: #eedd82 } /* Name.Variable.Global */
 .highlight-pygments-rrt .vi { color: #eedd82 } /* Name.Variable.Instance */
 .highlight-pygments-rrt .vm { color: #eedd82 } /* Name.Variable.Magic */
-.highlight-pygments-rrt .il { color: #dddddd } /* Literal.Number.Integer.Long */
+.highlight-pygments-rrt .il { color: #ff00ff } /* Literal.Number.Integer.Long */
