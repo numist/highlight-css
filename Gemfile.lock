@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rouge (4.2.0)
+    rouge (4.2.1)
 
 PLATFORMS
   arm64-darwin-21
