@@ -1,7 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rouge (4.2.0)
+    rouge (5.1.0)
+      strscan (~> 3.1)
+    strscan (3.1.8)
 
 PLATFORMS
   arm64-darwin-21
