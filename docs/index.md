@@ -52,7 +52,6 @@ styles:
   - stata-light
   - tango
   - arduino
-  - stata
   - colorful
   - night-owl
   other:
