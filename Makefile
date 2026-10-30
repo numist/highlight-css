@@ -105,7 +105,7 @@ $(PAGES_PATH)/index.md: $(PYGMENTS_PREVIEWS) $(ROUGE_PREVIEWS)
 
 .PHONY: all clean list
 
-all: Pygments Rouge $(PAGES_PATH)/index.md
+all: $(STYLES_MAKEFILE) Pygments Rouge $(PAGES_PATH)/index.md
 
 list:
 	@LC_ALL=C $(MAKE) -pRrq -f $(firstword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/(^|\n)# Files(\n|$$)/,/(^|\n)# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
