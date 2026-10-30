@@ -36,6 +36,10 @@
 .highlight-rouge-pastie .ge {
   font-style: italic;
 }
+.highlight-rouge-pastie .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-pastie .gs {
   font-weight: bold;
 }

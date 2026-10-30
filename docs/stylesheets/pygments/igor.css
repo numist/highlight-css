@@ -5,20 +5,20 @@ td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5
 span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .highlight-pygments-igor .hll { background-color: #ffffcc }
 .highlight-pygments-igor { background: #ffffff; }
-.highlight-pygments-igor .c { color: #FF0000; font-style: italic } /* Comment */
-.highlight-pygments-igor .k { color: #0000FF } /* Keyword */
-.highlight-pygments-igor .ch { color: #FF0000; font-style: italic } /* Comment.Hashbang */
-.highlight-pygments-igor .cm { color: #FF0000; font-style: italic } /* Comment.Multiline */
-.highlight-pygments-igor .cp { color: #FF0000; font-style: italic } /* Comment.Preproc */
-.highlight-pygments-igor .cpf { color: #FF0000; font-style: italic } /* Comment.PreprocFile */
-.highlight-pygments-igor .c1 { color: #FF0000; font-style: italic } /* Comment.Single */
-.highlight-pygments-igor .cs { color: #FF0000; font-style: italic } /* Comment.Special */
-.highlight-pygments-igor .kc { color: #0000FF } /* Keyword.Constant */
-.highlight-pygments-igor .kd { color: #0000FF } /* Keyword.Declaration */
-.highlight-pygments-igor .kn { color: #0000FF } /* Keyword.Namespace */
-.highlight-pygments-igor .kp { color: #0000FF } /* Keyword.Pseudo */
-.highlight-pygments-igor .kr { color: #0000FF } /* Keyword.Reserved */
-.highlight-pygments-igor .kt { color: #0000FF } /* Keyword.Type */
+.highlight-pygments-igor .c { color: #F00; font-style: italic } /* Comment */
+.highlight-pygments-igor .k { color: #00F } /* Keyword */
+.highlight-pygments-igor .ch { color: #F00; font-style: italic } /* Comment.Hashbang */
+.highlight-pygments-igor .cm { color: #F00; font-style: italic } /* Comment.Multiline */
+.highlight-pygments-igor .cp { color: #F00; font-style: italic } /* Comment.Preproc */
+.highlight-pygments-igor .cpf { color: #F00; font-style: italic } /* Comment.PreprocFile */
+.highlight-pygments-igor .c1 { color: #F00; font-style: italic } /* Comment.Single */
+.highlight-pygments-igor .cs { color: #F00; font-style: italic } /* Comment.Special */
+.highlight-pygments-igor .kc { color: #00F } /* Keyword.Constant */
+.highlight-pygments-igor .kd { color: #00F } /* Keyword.Declaration */
+.highlight-pygments-igor .kn { color: #00F } /* Keyword.Namespace */
+.highlight-pygments-igor .kp { color: #00F } /* Keyword.Pseudo */
+.highlight-pygments-igor .kr { color: #00F } /* Keyword.Reserved */
+.highlight-pygments-igor .kt { color: #00F } /* Keyword.Type */
 .highlight-pygments-igor .s { color: #009C00 } /* Literal.String */
 .highlight-pygments-igor .nc { color: #007575 } /* Name.Class */
 .highlight-pygments-igor .nd { color: #CC00A3 } /* Name.Decorator */

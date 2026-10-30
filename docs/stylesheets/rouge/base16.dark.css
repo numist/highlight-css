@@ -1,81 +1,91 @@
 .highlight-rouge-base16\.dark table td { padding: 5px; }
 .highlight-rouge-base16\.dark table pre { margin: 0; }
 .highlight-rouge-base16\.dark, .highlight .w {
-  color: #d0d0d0;
-  background-color: #151515;
+  color: #d8d8d8;
+  background-color: #181818;
 }
 .highlight-rouge-base16\.dark .err {
-  color: #151515;
-  background-color: #ac4142;
+  color: #181818;
+  background-color: #ab4642;
 }
 .highlight-rouge-base16\.dark .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #505050;
+  color: #585858;
 }
 .highlight-rouge-base16\.dark .cp {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16\.dark .nt {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16\.dark .o, .highlight .ow {
-  color: #d0d0d0;
+  color: #d8d8d8;
 }
 .highlight-rouge-base16\.dark .p, .highlight .pi {
-  color: #d0d0d0;
+  color: #d8d8d8;
 }
 .highlight-rouge-base16\.dark .gi {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16\.dark .gd {
-  color: #ac4142;
+  color: #ab4642;
 }
 .highlight-rouge-base16\.dark .gh {
-  color: #6a9fb5;
-  background-color: #151515;
+  color: #7cafc2;
+  background-color: #181818;
+  font-weight: bold;
+}
+.highlight-rouge-base16\.dark .ge {
+  font-style: italic;
+}
+.highlight-rouge-base16\.dark .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-base16\.dark .gs {
   font-weight: bold;
 }
 .highlight-rouge-base16\.dark .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #aa759f;
+  color: #ba8baf;
 }
 .highlight-rouge-base16\.dark .kc {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16\.dark .kt {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16\.dark .kd {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16\.dark .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16\.dark .sa {
-  color: #aa759f;
+  color: #ba8baf;
 }
 .highlight-rouge-base16\.dark .sr {
-  color: #75b5aa;
+  color: #86c1b9;
 }
 .highlight-rouge-base16\.dark .si {
-  color: #8f5536;
+  color: #a16946;
 }
 .highlight-rouge-base16\.dark .se {
-  color: #8f5536;
+  color: #a16946;
 }
 .highlight-rouge-base16\.dark .nn {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16\.dark .nc {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16\.dark .no {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16\.dark .na {
-  color: #6a9fb5;
+  color: #7cafc2;
 }
 .highlight-rouge-base16\.dark .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16\.dark .ss {
-  color: #90a959;
+  color: #a1b56c;
 }

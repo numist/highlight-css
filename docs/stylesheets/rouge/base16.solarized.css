@@ -33,6 +33,16 @@
   background-color: #002b36;
   font-weight: bold;
 }
+.highlight-rouge-base16\.solarized .ge {
+  font-style: italic;
+}
+.highlight-rouge-base16\.solarized .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-base16\.solarized .gs {
+  font-weight: bold;
+}
 .highlight-rouge-base16\.solarized .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
   color: #6c71c4;
 }

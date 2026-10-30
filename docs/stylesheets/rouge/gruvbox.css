@@ -37,6 +37,16 @@
   color: #b8bb26;
   font-weight: bold;
 }
+.highlight-rouge-gruvbox .ge {
+  font-style: italic;
+}
+.highlight-rouge-gruvbox .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-gruvbox .gs {
+  font-weight: bold;
+}
 .highlight-rouge-gruvbox .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
   color: #fb4934;
 }

@@ -21,17 +21,17 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-one-dark .cpf { color: #7F848E } /* Comment.PreprocFile */
 .highlight-pygments-one-dark .c1 { color: #7F848E } /* Comment.Single */
 .highlight-pygments-one-dark .cs { color: #7F848E } /* Comment.Special */
-.highlight-pygments-one-dark .gd { color: #ABB2BF } /* Generic.Deleted */
-.highlight-pygments-one-dark .ge { color: #ABB2BF } /* Generic.Emph */
+.highlight-pygments-one-dark .gd { color: #E06C75 } /* Generic.Deleted */
+.highlight-pygments-one-dark .ge { color: #ABB2BF; font-style: italic } /* Generic.Emph */
 .highlight-pygments-one-dark .ges { color: #ABB2BF } /* Generic.EmphStrong */
-.highlight-pygments-one-dark .gr { color: #ABB2BF } /* Generic.Error */
-.highlight-pygments-one-dark .gh { color: #ABB2BF } /* Generic.Heading */
-.highlight-pygments-one-dark .gi { color: #ABB2BF } /* Generic.Inserted */
-.highlight-pygments-one-dark .go { color: #ABB2BF } /* Generic.Output */
+.highlight-pygments-one-dark .gr { color: #E06C75 } /* Generic.Error */
+.highlight-pygments-one-dark .gh { color: #ABB2BF; font-weight: bold } /* Generic.Heading */
+.highlight-pygments-one-dark .gi { color: #98C379 } /* Generic.Inserted */
+.highlight-pygments-one-dark .go { color: #E06C75 } /* Generic.Output */
 .highlight-pygments-one-dark .gp { color: #ABB2BF } /* Generic.Prompt */
-.highlight-pygments-one-dark .gs { color: #ABB2BF } /* Generic.Strong */
-.highlight-pygments-one-dark .gu { color: #ABB2BF } /* Generic.Subheading */
-.highlight-pygments-one-dark .gt { color: #ABB2BF } /* Generic.Traceback */
+.highlight-pygments-one-dark .gs { color: #ABB2BF; font-weight: bold } /* Generic.Strong */
+.highlight-pygments-one-dark .gu { color: #ABB2BF; font-weight: bold } /* Generic.Subheading */
+.highlight-pygments-one-dark .gt { color: #E06C75 } /* Generic.Traceback */
 .highlight-pygments-one-dark .kc { color: #E5C07B } /* Keyword.Constant */
 .highlight-pygments-one-dark .kd { color: #C678DD } /* Keyword.Declaration */
 .highlight-pygments-one-dark .kn { color: #C678DD } /* Keyword.Namespace */

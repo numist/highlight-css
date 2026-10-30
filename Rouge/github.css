@@ -40,6 +40,10 @@
   color: #116329;
   background-color: #dafbe1;
 }
+.highlight .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight .kc {
   color: #0550ae;
 }

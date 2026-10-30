@@ -155,6 +155,10 @@
 .highlight-rouge-colorful .ge {
   font-style: italic;
 }
+.highlight-rouge-colorful .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-colorful .gs {
   font-weight: bold;
 }

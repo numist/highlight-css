@@ -12,7 +12,15 @@
 .highlight-rouge-monokai\.sublime .gp {
   color: #555555;
 }
+.highlight-rouge-monokai\.sublime .ge {
+  font-style: italic;
+}
+.highlight-rouge-monokai\.sublime .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-monokai\.sublime .gs {
+  font-weight: bold;
 }
 .highlight-rouge-monokai\.sublime .gu {
   color: #aaaaaa;
@@ -48,9 +56,6 @@
   color: #49483e;
 }
 .highlight-rouge-monokai\.sublime .gi {
-  color: #49483e;
-}
-.highlight-rouge-monokai\.sublime .ge {
   color: #49483e;
 }
 .highlight-rouge-monokai\.sublime .kc {

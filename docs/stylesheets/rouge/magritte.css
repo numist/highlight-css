@@ -45,6 +45,10 @@
 .highlight-rouge-magritte .ge {
   font-style: italic;
 }
+.highlight-rouge-magritte .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-magritte .gs {
   font-weight: bold;
 }
