@@ -1,0 +1,4 @@
+_site
+.venv
+vendor/bundle
+styles.mk

@@ -5,10 +5,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
   rouge
 
 BUNDLED WITH
-   2.3.21
+  4.0.2
