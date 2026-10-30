@@ -34,7 +34,10 @@
   background-color: #493131;
 }
 .highlight-rouge-monokai .ge {
-  color: #000000;
+  font-style: italic;
+}
+.highlight-rouge-monokai .ges {
+  font-weight: bold;
   font-style: italic;
 }
 .highlight-rouge-monokai .gr {

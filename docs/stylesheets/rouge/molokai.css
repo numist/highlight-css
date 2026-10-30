@@ -32,7 +32,10 @@
   color: #f92672;
 }
 .highlight-rouge-molokai .ge {
-  color: #1b1d1e;
+  font-style: italic;
+}
+.highlight-rouge-molokai .ges {
+  font-weight: bold;
   font-style: italic;
 }
 .highlight-rouge-molokai .gr {

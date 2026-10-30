@@ -39,6 +39,10 @@
   color: #aff5b4;
   background-color: #033a16;
 }
+.highlight-rouge-github\.dark .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-github\.dark .kc {
   color: #79c0ff;
 }

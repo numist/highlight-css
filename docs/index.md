@@ -19,6 +19,7 @@ styles:
   - rrt
   - vim
   - gruvbox-dark
+  - coffee
   - xcode
   - lilypond
   - borland
@@ -53,6 +54,7 @@ styles:
   - arduino
   - stata
   - colorful
+  - night-owl
   other:
   - tomorrow_night_eighties
   - tomorrow_night_blue

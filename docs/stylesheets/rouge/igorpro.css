@@ -12,6 +12,16 @@
 .highlight-rouge-igorpro .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1 {
   color: #FF0000;
 }
+.highlight-rouge-igorpro .ge {
+  font-style: italic;
+}
+.highlight-rouge-igorpro .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-igorpro .gs {
+  font-weight: bold;
+}
 .highlight-rouge-igorpro .kc {
   color: #C34E00;
 }

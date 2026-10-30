@@ -34,6 +34,16 @@
   background-color: #272822;
   font-weight: bold;
 }
+.highlight-rouge-base16\.monokai .ge {
+  font-style: italic;
+}
+.highlight-rouge-base16\.monokai .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-base16\.monokai .gs {
+  font-weight: bold;
+}
 .highlight-rouge-base16\.monokai .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
   color: #ae81ff;
 }

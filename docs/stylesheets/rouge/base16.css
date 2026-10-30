@@ -1,80 +1,90 @@
 .highlight-rouge-base16 table td { padding: 5px; }
 .highlight-rouge-base16 table pre { margin: 0; }
 .highlight-rouge-base16, .highlight .w {
-  color: #303030;
+  color: #383838;
 }
 .highlight-rouge-base16 .err {
-  color: #151515;
-  background-color: #ac4142;
+  color: #181818;
+  background-color: #ab4642;
 }
 .highlight-rouge-base16 .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #505050;
+  color: #585858;
 }
 .highlight-rouge-base16 .cp {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16 .nt {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16 .o, .highlight .ow {
-  color: #d0d0d0;
+  color: #d8d8d8;
 }
 .highlight-rouge-base16 .p, .highlight .pi {
-  color: #d0d0d0;
+  color: #d8d8d8;
 }
 .highlight-rouge-base16 .gi {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16 .gd {
-  color: #ac4142;
+  color: #ab4642;
 }
 .highlight-rouge-base16 .gh {
-  color: #6a9fb5;
-  background-color: #151515;
+  color: #7cafc2;
+  background-color: #181818;
+  font-weight: bold;
+}
+.highlight-rouge-base16 .ge {
+  font-style: italic;
+}
+.highlight-rouge-base16 .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight-rouge-base16 .gs {
   font-weight: bold;
 }
 .highlight-rouge-base16 .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #aa759f;
+  color: #ba8baf;
 }
 .highlight-rouge-base16 .kc {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16 .kt {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16 .kd {
-  color: #d28445;
+  color: #dc9656;
 }
 .highlight-rouge-base16 .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16 .sa {
-  color: #aa759f;
+  color: #ba8baf;
 }
 .highlight-rouge-base16 .sr {
-  color: #75b5aa;
+  color: #86c1b9;
 }
 .highlight-rouge-base16 .si {
-  color: #8f5536;
+  color: #a16946;
 }
 .highlight-rouge-base16 .se {
-  color: #8f5536;
+  color: #a16946;
 }
 .highlight-rouge-base16 .nn {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16 .nc {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16 .no {
-  color: #f4bf75;
+  color: #f7ca88;
 }
 .highlight-rouge-base16 .na {
-  color: #6a9fb5;
+  color: #7cafc2;
 }
 .highlight-rouge-base16 .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #90a959;
+  color: #a1b56c;
 }
 .highlight-rouge-base16 .ss {
-  color: #90a959;
+  color: #a1b56c;
 }

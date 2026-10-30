@@ -50,6 +50,10 @@
 .highlight .ge {
   font-style: italic;
 }
+.highlight .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight .gs {
   font-weight: bold;
 }
@@ -129,11 +133,15 @@
   color: #f696db;
   font-weight: bold;
 }
-.highlight .s, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+.highlight .s, .highlight .sb, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
   color: #fff0a6;
   font-weight: bold;
 }
 .highlight .sa {
+  color: #f6dd62;
+  font-weight: bold;
+}
+.highlight .dl {
   color: #f6dd62;
   font-weight: bold;
 }

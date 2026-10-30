@@ -55,6 +55,10 @@
 .highlight-rouge-bw .ge {
   font-style: italic;
 }
+.highlight-rouge-bw .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-bw .gs {
   font-weight: bold;
 }

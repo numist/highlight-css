@@ -6,7 +6,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight-pygments-bw .hll { background-color: #ffffcc }
 .highlight-pygments-bw { background: #ffffff; }
 .highlight-pygments-bw .c { font-style: italic } /* Comment */
-.highlight-pygments-bw .err { border: 1px solid #FF0000 } /* Error */
+.highlight-pygments-bw .err { border: 1px solid #F00 } /* Error */
 .highlight-pygments-bw .k { font-weight: bold } /* Keyword */
 .highlight-pygments-bw .ch { font-style: italic } /* Comment.Hashbang */
 .highlight-pygments-bw .cm { font-style: italic } /* Comment.Multiline */

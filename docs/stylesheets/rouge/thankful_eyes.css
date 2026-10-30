@@ -49,6 +49,10 @@
 .highlight-rouge-thankful_eyes .ge {
   font-style: italic;
 }
+.highlight-rouge-thankful_eyes .ges {
+  font-weight: bold;
+  font-style: italic;
+}
 .highlight-rouge-thankful_eyes .gs {
   font-weight: bold;
 }
@@ -128,11 +132,15 @@
   color: #f696db;
   font-weight: bold;
 }
-.highlight-rouge-thankful_eyes .s, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+.highlight-rouge-thankful_eyes .s, .highlight .sb, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
   color: #fff0a6;
   font-weight: bold;
 }
 .highlight-rouge-thankful_eyes .sa {
+  color: #f6dd62;
+  font-weight: bold;
+}
+.highlight-rouge-thankful_eyes .dl {
   color: #f6dd62;
   font-weight: bold;
 }
