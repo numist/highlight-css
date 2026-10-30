@@ -87,7 +87,7 @@ $(ROUGE_STYLESHEETS): $(RUBY_ENV)/installed
 $(ROUGE_PREVIEWS): $(RUBY_ENV)/installed
 	echo "Building: $@"
 	$(eval style=$(basename $(notdir $@)))
-	bundle exec rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./\\\\\./')/' > $@
+	set -o pipefail; bundle exec rougify style $(style) | sed -e 's/.highlight/.highlight-rouge-$(shell echo $(style) | sed -e 's/\./\\\\\./')/' > $@
 
 Rouge: $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS)
 
