@@ -95,7 +95,12 @@ Rouge: $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS)
 # GitHub Pages
 #
 
-$(PAGES_PATH)/index.md: $(PYGMENTS_PREVIEWS) $(ROUGE_PREVIEWS)
+# Generated stylesheets for styles missing from the style lists, removed so
+# that the docs only list styles that are still built.
+ORPHANED_STYLESHEETS := $(filter-out $(PYGMENTS_STYLESHEETS) $(PYGMENTS_PREVIEWS) $(ROUGE_STYLESHEETS) $(ROUGE_PREVIEWS),$(wildcard $(PYGMENTS_STYLESHEET_PATH)/*.css $(PYGMENTS_PREVIEW_PATH)/*.css $(ROUGE_STYLESHEET_PATH)/*.css $(ROUGE_PREVIEW_PATH)/*.css))
+
+$(PAGES_PATH)/index.md: $(STYLES_MAKEFILE) $(PYGMENTS_PREVIEWS) $(ROUGE_PREVIEWS)
+	for file in $(ORPHANED_STYLESHEETS); do echo "Removing: $$file"; rm -f "$$file"; done
 	echo "Updating: $@"
 	./$(PAGES_PATH)/scripts/update_front_matter.rb
 
